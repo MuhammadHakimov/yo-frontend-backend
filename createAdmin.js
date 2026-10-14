@@ -1,41 +1,56 @@
-import bcrypt from "bcryptjs";
-import { getUsers, saveUsers } from "./data/users.js";
 
-const email = "muhammad@gmail.com";
-const password = "77327732";
+import bcrypt from "bcryptjs";
+import { pool } from "./config/db.js";
+import "dotenv/config";
 
 async function createAdmin() {
-  const users = getUsers();
+  const email = process.env.ADMIN_EMAIL;
+  const password = process.env.ADMIN_PASSWORD;
 
-  const existingAdmin = users.find(
-    (user) => user.email.toLowerCase() === email.toLowerCase()
-  );
-
-  if (existingAdmin) {
-    console.log("Admin аллакай вуҷуд дорад.");
-    return;
+  if (!email || !password) {
+    throw new Error("ADMIN_EMAIL ва ADMIN_PASSWORD бояд дар .env бошанд.");
   }
 
-  const hashedPassword = await bcrypt.hash(password, 10);
+  try {
+    const existingAdmin = await pool.query(
+      "SELECT id FROM users WHERE LOWER(email) = LOWER($1) LIMIT 1",
+      [email],
+    );
 
-  const admin = {
-    id: Date.now().toString(),
-    name: "Admin",
-    surename: "",
-    email,
-    password: hashedPassword,
-    xp: 0,
-    level: "Admin",
-    role: "admin",
-  };
+    if (existingAdmin.rows.length > 0) {
+      console.log("Ин email аллакай дар база вуҷуд дорад.");
+      return;
+    }
 
-  users.push(admin);
+    const hashedPassword = await bcrypt.hash(password, 12);
 
-  saveUsers(users);
+    await pool.query(
+      `INSERT INTO users
+        (id, name, surename, email, password, img, xp, level, role, mistakes, history)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)`,
+      [
+        Date.now().toString(),
+        "Admin",
+        "",
+        email.toLowerCase(),
+        hashedPassword,
+        "",
+        0,
+        "Admin",
+        "admin",
+        JSON.stringify([]),
+        JSON.stringify([]),
+      ],
+    );
 
-  console.log("Admin бомуваффақият сохта шуд.");
-  console.log("Email:", email);
-  console.log("Password:", password);
+    console.log("Администратор дар PostgreSQL сохта шуд.");
+    console.log("Email:", email);
+  } finally {
+    await pool.end();
+  }
 }
 
-createAdmin();
+createAdmin().catch((error) => {
+  console.error("Хатои сохтани администратор:", error.message);
+  process.exitCode = 1;
+});
