@@ -1,0 +1,3440 @@
+[
+  {
+    "id": "1790748757627",
+    "userId": "1789962379836",
+    "technology": "Tailwind",
+    "questionId": "tailwind-10",
+    "question": "Кадом синф барои андозаи шрифти калон истифода мешавад?",
+    "options": [
+      "text-lg",
+      "font-large",
+      "size-lg",
+      "text-big"
+    ],
+    "selectedAnswer": "size-lg",
+    "correctAnswer": "text-lg",
+    "answer": 0,
+    "explanation": "text-lg андозаи шрифтро калонтар мекунад (1.125rem).",
+    "date": "2026-09-30T06:12:37.627Z"
+  },
+  {
+    "id": "1790749325135",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-9",
+    "question": "Кадом тег як элементи рӯйхатро муайян мекунад?",
+    "options": [
+      "<item>",
+      "<li>",
+      "<ul>",
+      "<list>"
+    ],
+    "selectedAnswer": "<ul>",
+    "correctAnswer": "<li>",
+    "answer": 1,
+    "explanation": "Теги <li> барои ҳар як элементи рӯйхат истифода мешавад.",
+    "date": "2026-09-30T06:22:05.135Z"
+  },
+  {
+    "id": "1790749328603",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-20",
+    "question": "Кадом тег ячейкаи одии ҷадвалро муайян мекунад?",
+    "options": [
+      "<cell>",
+      "<th>",
+      "<td>",
+      "<data>"
+    ],
+    "selectedAnswer": "<th>",
+    "correctAnswer": "<td>",
+    "answer": 2,
+    "explanation": "Теги <td> барои ячейкаи одии ҷадвал истифода мешавад.",
+    "date": "2026-09-30T06:22:08.603Z"
+  },
+  {
+    "id": "1790749330685",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-27",
+    "question": "Кадом тег варианти дохили <select>-ро муайян мекунад?",
+    "options": [
+      "<choice>",
+      "<option>",
+      "<item>",
+      "<select-item>"
+    ],
+    "selectedAnswer": "<item>",
+    "correctAnswer": "<option>",
+    "answer": 1,
+    "explanation": "Теги <option> як варианти интихобшавандаро дар <select> муайян мекунад.",
+    "date": "2026-09-30T06:22:10.685Z"
+  },
+  {
+    "id": "1790749331369",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-19",
+    "question": "Кадом тег як сатри ҷадвалро муайян мекунад?",
+    "options": [
+      "<td>",
+      "<tr>",
+      "<row>",
+      "<table-row>"
+    ],
+    "selectedAnswer": "<row>",
+    "correctAnswer": "<tr>",
+    "answer": 1,
+    "explanation": "Теги <tr> як сатри ҷадвалро муайян мекунад.",
+    "date": "2026-09-30T06:22:11.369Z"
+  },
+  {
+    "id": "1790749481676",
+    "userId": "1789962379836",
+    "technology": "CSS",
+    "questionId": "css-17",
+    "question": "Кадом хосият барои тағйир додани ранги фони (background) элемент истифода мешавад?",
+    "options": [
+      "color",
+      "bg-color",
+      "background-color",
+      "fill-color"
+    ],
+    "selectedAnswer": "color",
+    "correctAnswer": "background-color",
+    "answer": 2,
+    "explanation": "Хосияти 'background-color' барои гузоштани ранги фон хизмат мекунад.",
+    "date": "2026-09-30T06:24:41.676Z"
+  },
+  {
+    "id": "1790749496327",
+    "userId": "1789962379836",
+    "technology": "CSS",
+    "questionId": "css-38",
+    "question": "Кадом хосияти CSS барои мудаввар кардани кунҷҳои (кунҷҳои мудаввар) элемент истифода мешавад?",
+    "options": [
+      "border-corner",
+      "border-radius",
+      "box-shadow",
+      "corner-shape"
+    ],
+    "selectedAnswer": "border-corner",
+    "correctAnswer": "border-radius",
+    "answer": 1,
+    "explanation": "'border-radius' кунҷҳои рамкаро ҳамвор ва мудаввар мекунад.",
+    "date": "2026-09-30T06:24:56.327Z"
+  },
+  {
+    "id": "1790749497635",
+    "userId": "1789962379836",
+    "technology": "CSS",
+    "questionId": "css-27",
+    "question": "Кадом хосият барои сохтани чаҳорчӯба (рамка) атрофи элемент истифода мешавад?",
+    "options": [
+      "outline",
+      "border",
+      "padding",
+      "margin"
+    ],
+    "selectedAnswer": "outline",
+    "correctAnswer": "border",
+    "answer": 1,
+    "explanation": "Хосияти 'border' чаҳорчӯбаи элементро танзим мекунад.",
+    "date": "2026-09-30T06:24:57.635Z"
+  },
+  {
+    "id": "1790749499074",
+    "userId": "1789962379836",
+    "technology": "CSS",
+    "questionId": "css-13",
+    "question": "Кадом теги HTML барои пайваст кардани файли берунаи CSS истифода мешавад?",
+    "options": [
+      "<script>",
+      "<style>",
+      "<link>",
+      "<css>"
+    ],
+    "selectedAnswer": "<script>",
+    "correctAnswer": "<link>",
+    "answer": 2,
+    "explanation": "Теги <link rel=\"stylesheet\" href=\"style.css\"> барои пайваст кардани файли CSS хизмат мекунад.",
+    "date": "2026-09-30T06:24:59.074Z"
+  },
+  {
+    "id": "1790749855915",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-31",
+    "question": "Кадом тег барои қисми поёнии саҳифа истифода мешавад?",
+    "options": [
+      "<bottom>",
+      "<footer>",
+      "<end>",
+      "<down>"
+    ],
+    "selectedAnswer": "<bottom>",
+    "correctAnswer": "<footer>",
+    "answer": 1,
+    "explanation": "Теги <footer> барои қисми поёнии саҳифа ё як бахш истифода мешавад.",
+    "date": "2026-09-30T06:30:55.915Z"
+  },
+  {
+    "id": "1790749859645",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-36",
+    "question": "Кадом тег барои гузоштани тасвир истифода мешавад?",
+    "options": [
+      "<image>",
+      "<picture>",
+      "<img>",
+      "<photo>"
+    ],
+    "selectedAnswer": "<picture>",
+    "correctAnswer": "<img>",
+    "answer": 2,
+    "explanation": "Теги img барои нишон додани тасвир истифода мешавад.",
+    "date": "2026-09-30T06:30:59.645Z"
+  },
+  {
+    "id": "1790749861083",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-33",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<text>",
+      "<paragraph>",
+      "<p>",
+      "<title>"
+    ],
+    "selectedAnswer": "<paragraph>",
+    "correctAnswer": "<p>",
+    "answer": 2,
+    "explanation": "Теги p барои навиштани параграф истифода мешавад.",
+    "date": "2026-09-30T06:31:01.083Z"
+  },
+  {
+    "id": "1790749864681",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-1",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<div>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги <h1> барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-09-30T06:31:04.681Z"
+  },
+  {
+    "id": "1790749865129",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-31",
+    "question": "Кадом тег барои қисми поёнии саҳифа истифода мешавад?",
+    "options": [
+      "<bottom>",
+      "<footer>",
+      "<end>",
+      "<down>"
+    ],
+    "selectedAnswer": "<end>",
+    "correctAnswer": "<footer>",
+    "answer": 1,
+    "explanation": "Теги <footer> барои қисми поёнии саҳифа ё як бахш истифода мешавад.",
+    "date": "2026-09-30T06:31:05.129Z"
+  },
+  {
+    "id": "1790749866204",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-22",
+    "question": "Кадом тег барои сохтани форма истифода мешавад?",
+    "options": [
+      "<input>",
+      "<form>",
+      "<fieldset>",
+      "<data>"
+    ],
+    "selectedAnswer": "<fieldset>",
+    "correctAnswer": "<form>",
+    "answer": 1,
+    "explanation": "Теги <form> барои сохтани формаи HTML истифода мешавад.",
+    "date": "2026-09-30T06:31:06.204Z"
+  },
+  {
+    "id": "1790749866346",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-4",
+    "question": "Кадом тег барои сохтани пайванд истифода мешавад?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "selectedAnswer": "<href>",
+    "correctAnswer": "<a>",
+    "answer": 1,
+    "explanation": "Теги <a> барои сохтани hyperlink истифода мешавад.",
+    "date": "2026-09-30T06:31:06.346Z"
+  },
+  {
+    "id": "1790749866658",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-9",
+    "question": "Кадом тег як элементи рӯйхатро муайян мекунад?",
+    "options": [
+      "<item>",
+      "<li>",
+      "<ul>",
+      "<list>"
+    ],
+    "selectedAnswer": "<ul>",
+    "correctAnswer": "<li>",
+    "answer": 1,
+    "explanation": "Теги <li> барои ҳар як элементи рӯйхат истифода мешавад.",
+    "date": "2026-09-30T06:31:06.658Z"
+  },
+  {
+    "id": "1790749870498",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-35",
+    "question": "Кадом атрибут суроғаи пайвандро муайян мекунад?",
+    "options": [
+      "src",
+      "href",
+      "alt",
+      "link"
+    ],
+    "selectedAnswer": "src",
+    "correctAnswer": "href",
+    "answer": 1,
+    "explanation": "Атрибути href суроғаи пайвандро нигоҳ медорад.",
+    "date": "2026-09-30T06:31:10.498Z"
+  },
+  {
+    "id": "1790749870794",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-21",
+    "question": "Кадом тег барои сарлавҳаи сутуни ҷадвал истифода мешавад?",
+    "options": [
+      "<thead>",
+      "<th>",
+      "<header>",
+      "<td>"
+    ],
+    "selectedAnswer": "<thead>",
+    "correctAnswer": "<th>",
+    "answer": 1,
+    "explanation": "Теги <th> барои ячейкаи сарлавҳаи ҷадвал истифода мешавад.",
+    "date": "2026-09-30T06:31:10.794Z"
+  },
+  {
+    "id": "1790749871426",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-30",
+    "question": "Кадом тег барои қисми мавзӯии ҳуҷҷат истифода мешавад?",
+    "options": [
+      "<part>",
+      "<section>",
+      "<area>",
+      "<group>"
+    ],
+    "selectedAnswer": "<part>",
+    "correctAnswer": "<section>",
+    "answer": 1,
+    "explanation": "Теги <section> барои гурӯҳбандии мундариҷаи марбут ба як мавзӯъ истифода мешавад.",
+    "date": "2026-09-30T06:31:11.426Z"
+  },
+  {
+    "id": "1790749871584",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-4",
+    "question": "Кадом тег барои сохтани пайванд истифода мешавад?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "selectedAnswer": "<link>",
+    "correctAnswer": "<a>",
+    "answer": 1,
+    "explanation": "Теги <a> барои сохтани hyperlink истифода мешавад.",
+    "date": "2026-09-30T06:31:11.584Z"
+  },
+  {
+    "id": "1790749871728",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-39",
+    "question": "Кадом тег барои сатри нави матн истифода мешавад?",
+    "options": [
+      "<break>",
+      "<br>",
+      "<newline>",
+      "<hr>"
+    ],
+    "selectedAnswer": "<break>",
+    "correctAnswer": "<br>",
+    "answer": 1,
+    "explanation": "Теги br сатри нав месозад.",
+    "date": "2026-09-30T06:31:11.728Z"
+  },
+  {
+    "id": "1790749871879",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-24",
+    "question": "Кадом type барои ворид кардани парол истифода мешавад?",
+    "options": [
+      "type=\"text\"",
+      "type=\"password\"",
+      "type=\"secret\"",
+      "type=\"hidden-password\""
+    ],
+    "selectedAnswer": "type=\"text\"",
+    "correctAnswer": "type=\"password\"",
+    "answer": 1,
+    "explanation": "type=\"password\" матни воридшавандаро ҳамчун парол нишон медиҳад.",
+    "date": "2026-09-30T06:31:11.879Z"
+  },
+  {
+    "id": "1790749872010",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-9",
+    "question": "Кадом тег як элементи рӯйхатро муайян мекунад?",
+    "options": [
+      "<item>",
+      "<li>",
+      "<ul>",
+      "<list>"
+    ],
+    "selectedAnswer": "<item>",
+    "correctAnswer": "<li>",
+    "answer": 1,
+    "explanation": "Теги <li> барои ҳар як элементи рӯйхат истифода мешавад.",
+    "date": "2026-09-30T06:31:12.010Z"
+  },
+  {
+    "id": "1790749875306",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-12",
+    "question": "Кадом тег барои гузоштани хати нав истифода мешавад?",
+    "options": [
+      "<break>",
+      "<newline>",
+      "<br>",
+      "<line>"
+    ],
+    "selectedAnswer": "<break>",
+    "correctAnswer": "<br>",
+    "answer": 2,
+    "explanation": "Теги <br> барои гузаштан ба сатри нав истифода мешавад.",
+    "date": "2026-09-30T06:31:15.306Z"
+  },
+  {
+    "id": "1790749875467",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-24",
+    "question": "Кадом type барои ворид кардани парол истифода мешавад?",
+    "options": [
+      "type=\"text\"",
+      "type=\"password\"",
+      "type=\"secret\"",
+      "type=\"hidden-password\""
+    ],
+    "selectedAnswer": "type=\"text\"",
+    "correctAnswer": "type=\"password\"",
+    "answer": 1,
+    "explanation": "type=\"password\" матни воридшавандаро ҳамчун парол нишон медиҳад.",
+    "date": "2026-09-30T06:31:15.467Z"
+  },
+  {
+    "id": "1790749875811",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-32",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<p>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги h1 барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-09-30T06:31:15.811Z"
+  },
+  {
+    "id": "1790749875987",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-38",
+    "question": "Кадом тег барои рӯйхати рақамдор истифода мешавад?",
+    "options": [
+      "<ul>",
+      "<li>",
+      "<ol>",
+      "<list>"
+    ],
+    "selectedAnswer": "<ul>",
+    "correctAnswer": "<ol>",
+    "answer": 2,
+    "explanation": "Теги ol рӯйхати рақамдор месозад.",
+    "date": "2026-09-30T06:31:15.987Z"
+  },
+  {
+    "id": "1790749876155",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-8",
+    "question": "Кадом тег барои рӯйхати номунтазам истифода мешавад?",
+    "options": [
+      "<ol>",
+      "<list>",
+      "<ul>",
+      "<li>"
+    ],
+    "selectedAnswer": "<ol>",
+    "correctAnswer": "<ul>",
+    "answer": 2,
+    "explanation": "Теги <ul> барои сохтани рӯйхати номунтазам истифода мешавад.",
+    "date": "2026-09-30T06:31:16.155Z"
+  },
+  {
+    "id": "1790749899242",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-3",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<text>",
+      "<p>",
+      "<paragraph>",
+      "<div>"
+    ],
+    "selectedAnswer": "<text>",
+    "correctAnswer": "<p>",
+    "answer": 1,
+    "explanation": "Теги <p> барои сохтани параграф истифода мешавад.",
+    "date": "2026-09-30T06:31:39.242Z"
+  },
+  {
+    "id": "1790749899436",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-1",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<p>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги <h1> барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-09-30T06:31:39.437Z"
+  },
+  {
+    "id": "1790749899628",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-2",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<p>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги <h1> барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-09-30T06:31:39.628Z"
+  },
+  {
+    "id": "1790749899801",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-8",
+    "question": "Кадом тег барои рӯйхати номунтазам истифода мешавад?",
+    "options": [
+      "<ol>",
+      "<list>",
+      "<ul>",
+      "<li>"
+    ],
+    "selectedAnswer": "<ol>",
+    "correctAnswer": "<ul>",
+    "answer": 2,
+    "explanation": "Теги <ul> барои сохтани рӯйхати номунтазам истифода мешавад.",
+    "date": "2026-09-30T06:31:39.801Z"
+  },
+  {
+    "id": "1790749900330",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-10",
+    "question": "Кадом тег барои рӯйхати рақамдор истифода мешавад?",
+    "options": [
+      "<ul>",
+      "<li>",
+      "<ol>",
+      "<list>"
+    ],
+    "selectedAnswer": "<ul>",
+    "correctAnswer": "<ol>",
+    "answer": 2,
+    "explanation": "Теги <ol> рӯйхати тартибдодашуда ё рақамдор месозад.",
+    "date": "2026-09-30T06:31:40.330Z"
+  },
+  {
+    "id": "1790749900717",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-20",
+    "question": "Кадом тег ячейкаи одии ҷадвалро муайян мекунад?",
+    "options": [
+      "<cell>",
+      "<th>",
+      "<td>",
+      "<data>"
+    ],
+    "selectedAnswer": "<cell>",
+    "correctAnswer": "<td>",
+    "answer": 2,
+    "explanation": "Теги <td> барои ячейкаи одии ҷадвал истифода мешавад.",
+    "date": "2026-09-30T06:31:40.717Z"
+  },
+  {
+    "id": "1790749901443",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-39",
+    "question": "Кадом тег барои сатри нави матн истифода мешавад?",
+    "options": [
+      "<break>",
+      "<br>",
+      "<newline>",
+      "<hr>"
+    ],
+    "selectedAnswer": "<break>",
+    "correctAnswer": "<br>",
+    "answer": 1,
+    "explanation": "Теги br сатри нав месозад.",
+    "date": "2026-09-30T06:31:41.443Z"
+  },
+  {
+    "id": "1790749901969",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-33",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<text>",
+      "<paragraph>",
+      "<p>",
+      "<title>"
+    ],
+    "selectedAnswer": "<text>",
+    "correctAnswer": "<p>",
+    "answer": 2,
+    "explanation": "Теги p барои навиштани параграф истифода мешавад.",
+    "date": "2026-09-30T06:31:41.969Z"
+  },
+  {
+    "id": "1790749902318",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-16",
+    "question": "Кадом тег унвони саҳифаро дар tab-и браузер нишон медиҳад?",
+    "options": [
+      "<name>",
+      "<title>",
+      "<caption>",
+      "<header>"
+    ],
+    "selectedAnswer": "<name>",
+    "correctAnswer": "<title>",
+    "answer": 1,
+    "explanation": "Теги <title> номи саҳифаро дар tab-и браузер муайян мекунад.",
+    "date": "2026-09-30T06:31:42.318Z"
+  },
+  {
+    "id": "1790749903042",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-6",
+    "question": "Кадом тег барои гузоштани тасвир истифода мешавад?",
+    "options": [
+      "<image>",
+      "<picture>",
+      "<img>",
+      "<src>"
+    ],
+    "selectedAnswer": "<image>",
+    "correctAnswer": "<img>",
+    "answer": 2,
+    "explanation": "Теги <img> барои нишон додани тасвир истифода мешавад.",
+    "date": "2026-09-30T06:31:43.042Z"
+  },
+  {
+    "id": "1790749903218",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-24",
+    "question": "Кадом type барои ворид кардани парол истифода мешавад?",
+    "options": [
+      "type=\"text\"",
+      "type=\"password\"",
+      "type=\"secret\"",
+      "type=\"hidden-password\""
+    ],
+    "selectedAnswer": "type=\"text\"",
+    "correctAnswer": "type=\"password\"",
+    "answer": 1,
+    "explanation": "type=\"password\" матни воридшавандаро ҳамчун парол нишон медиҳад.",
+    "date": "2026-09-30T06:31:43.218Z"
+  },
+  {
+    "id": "1790749903564",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-15",
+    "question": "Кадом тег маълумоти мета ва пайвастҳои CSS-ро дар бар мегирад?",
+    "options": [
+      "<body>",
+      "<head>",
+      "<meta>",
+      "<info>"
+    ],
+    "selectedAnswer": "<body>",
+    "correctAnswer": "<head>",
+    "answer": 1,
+    "explanation": "Теги <head> маълумоти техникӣ, title, meta ва пайвастҳои stylesheet-ро нигоҳ медорад.",
+    "date": "2026-09-30T06:31:43.564Z"
+  },
+  {
+    "id": "1790749904470",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-11",
+    "question": "Кадом тег барои гузоштани сарлавҳаи сатҳи дуюм истифода мешавад?",
+    "options": [
+      "<h1>",
+      "<h2>",
+      "<h3>",
+      "<head>"
+    ],
+    "selectedAnswer": "<h1>",
+    "correctAnswer": "<h2>",
+    "answer": 1,
+    "explanation": "Теги <h2> барои сарлавҳаи сатҳи дуюм истифода мешавад.",
+    "date": "2026-09-30T06:31:44.470Z"
+  },
+  {
+    "id": "1790749904653",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-17",
+    "question": "Кадом декларация нишон медиҳад, ки ҳуҷҷат HTML5 мебошад?",
+    "options": [
+      "<html5>",
+      "<doctype html>",
+      "<!DOCTYPE html>",
+      "<HTML5>"
+    ],
+    "selectedAnswer": "<html5>",
+    "correctAnswer": "<!DOCTYPE html>",
+    "answer": 2,
+    "explanation": "Декларацияи <!DOCTYPE html> барои нишон додани HTML5 истифода мешавад.",
+    "date": "2026-09-30T06:31:44.653Z"
+  },
+  {
+    "id": "1790749907769",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-7",
+    "question": "Кадом атрибут роҳи тасвирро дар теги <img> муайян мекунад?",
+    "options": [
+      "href",
+      "src",
+      "path",
+      "url"
+    ],
+    "selectedAnswer": "href",
+    "correctAnswer": "src",
+    "answer": 1,
+    "explanation": "Атрибути src роҳи файл ё URL-и тасвирро муайян мекунад.",
+    "date": "2026-09-30T06:31:47.769Z"
+  },
+  {
+    "id": "1790749908124",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-30",
+    "question": "Кадом тег барои қисми мавзӯии ҳуҷҷат истифода мешавад?",
+    "options": [
+      "<part>",
+      "<section>",
+      "<area>",
+      "<group>"
+    ],
+    "selectedAnswer": "<part>",
+    "correctAnswer": "<section>",
+    "answer": 1,
+    "explanation": "Теги <section> барои гурӯҳбандии мундариҷаи марбут ба як мавзӯъ истифода мешавад.",
+    "date": "2026-09-30T06:31:48.124Z"
+  },
+  {
+    "id": "1790749908316",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-35",
+    "question": "Кадом атрибут суроғаи пайвандро муайян мекунад?",
+    "options": [
+      "src",
+      "href",
+      "alt",
+      "link"
+    ],
+    "selectedAnswer": "src",
+    "correctAnswer": "href",
+    "answer": 1,
+    "explanation": "Атрибути href суроғаи пайвандро нигоҳ медорад.",
+    "date": "2026-09-30T06:31:48.316Z"
+  },
+  {
+    "id": "1790749909048",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-4",
+    "question": "Кадом тег барои сохтани пайванд истифода мешавад?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "selectedAnswer": "<link>",
+    "correctAnswer": "<a>",
+    "answer": 1,
+    "explanation": "Теги <a> барои сохтани hyperlink истифода мешавад.",
+    "date": "2026-09-30T06:31:49.048Z"
+  },
+  {
+    "id": "1790749909844",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-31",
+    "question": "Кадом тег барои қисми поёнии саҳифа истифода мешавад?",
+    "options": [
+      "<bottom>",
+      "<footer>",
+      "<end>",
+      "<down>"
+    ],
+    "selectedAnswer": "<bottom>",
+    "correctAnswer": "<footer>",
+    "answer": 1,
+    "explanation": "Теги <footer> барои қисми поёнии саҳифа ё як бахш истифода мешавад.",
+    "date": "2026-09-30T06:31:49.844Z"
+  },
+  {
+    "id": "1790749910034",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-9",
+    "question": "Кадом тег як элементи рӯйхатро муайян мекунад?",
+    "options": [
+      "<item>",
+      "<li>",
+      "<ul>",
+      "<list>"
+    ],
+    "selectedAnswer": "<item>",
+    "correctAnswer": "<li>",
+    "answer": 1,
+    "explanation": "Теги <li> барои ҳар як элементи рӯйхат истифода мешавад.",
+    "date": "2026-09-30T06:31:50.034Z"
+  },
+  {
+    "id": "1790749910584",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-3",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<text>",
+      "<p>",
+      "<paragraph>",
+      "<div>"
+    ],
+    "selectedAnswer": "<text>",
+    "correctAnswer": "<p>",
+    "answer": 1,
+    "explanation": "Теги <p> барои сохтани параграф истифода мешавад.",
+    "date": "2026-09-30T06:31:50.584Z"
+  },
+  {
+    "id": "1790749910943",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-19",
+    "question": "Кадом тег як сатри ҷадвалро муайян мекунад?",
+    "options": [
+      "<td>",
+      "<tr>",
+      "<row>",
+      "<table-row>"
+    ],
+    "selectedAnswer": "<td>",
+    "correctAnswer": "<tr>",
+    "answer": 1,
+    "explanation": "Теги <tr> як сатри ҷадвалро муайян мекунад.",
+    "date": "2026-09-30T06:31:50.943Z"
+  },
+  {
+    "id": "1790749911243",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-20",
+    "question": "Кадом тег ячейкаи одии ҷадвалро муайян мекунад?",
+    "options": [
+      "<cell>",
+      "<th>",
+      "<td>",
+      "<data>"
+    ],
+    "selectedAnswer": "<cell>",
+    "correctAnswer": "<td>",
+    "answer": 2,
+    "explanation": "Теги <td> барои ячейкаи одии ҷадвал истифода мешавад.",
+    "date": "2026-09-30T06:31:51.243Z"
+  },
+  {
+    "id": "1790749912799",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-39",
+    "question": "Кадом тег барои сатри нави матн истифода мешавад?",
+    "options": [
+      "<break>",
+      "<br>",
+      "<newline>",
+      "<hr>"
+    ],
+    "selectedAnswer": "<break>",
+    "correctAnswer": "<br>",
+    "answer": 1,
+    "explanation": "Теги br сатри нав месозад.",
+    "date": "2026-09-30T06:31:52.799Z"
+  },
+  {
+    "id": "1790749912925",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-22",
+    "question": "Кадом тег барои сохтани форма истифода мешавад?",
+    "options": [
+      "<input>",
+      "<form>",
+      "<fieldset>",
+      "<data>"
+    ],
+    "selectedAnswer": "<input>",
+    "correctAnswer": "<form>",
+    "answer": 1,
+    "explanation": "Теги <form> барои сохтани формаи HTML истифода мешавад.",
+    "date": "2026-09-30T06:31:52.925Z"
+  },
+  {
+    "id": "1790946786496",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-24",
+    "question": "Кадом type барои ворид кардани парол истифода мешавад?",
+    "options": [
+      "type=\"text\"",
+      "type=\"password\"",
+      "type=\"secret\"",
+      "type=\"hidden-password\""
+    ],
+    "selectedAnswer": "type=\"secret\"",
+    "correctAnswer": "type=\"password\"",
+    "answer": 1,
+    "explanation": "type=\"password\" матни воридшавандаро ҳамчун парол нишон медиҳад.",
+    "date": "2026-10-02T13:13:06.496Z"
+  },
+  {
+    "id": "1790946786942",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-31",
+    "question": "Кадом тег барои қисми поёнии саҳифа истифода мешавад?",
+    "options": [
+      "<bottom>",
+      "<footer>",
+      "<end>",
+      "<down>"
+    ],
+    "selectedAnswer": "<end>",
+    "correctAnswer": "<footer>",
+    "answer": 1,
+    "explanation": "Теги <footer> барои қисми поёнии саҳифа ё як бахш истифода мешавад.",
+    "date": "2026-10-02T13:13:06.942Z"
+  },
+  {
+    "id": "1790946787371",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-18",
+    "question": "Кадом тег барои сохтани ҷадвал истифода мешавад?",
+    "options": [
+      "<table>",
+      "<tab>",
+      "<grid>",
+      "<td>"
+    ],
+    "selectedAnswer": "<grid>",
+    "correctAnswer": "<table>",
+    "answer": 0,
+    "explanation": "Теги <table> барои сохтани ҷадвал истифода мешавад.",
+    "date": "2026-10-02T13:13:07.371Z"
+  },
+  {
+    "id": "1791026972260",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744226212",
+    "question": "Кадом тег барои сохтани форма истифода мешавад?",
+    "options": [
+      "<fieldset>",
+      "<input>",
+      "<data>",
+      "<form>"
+    ],
+    "selectedAnswer": "<input>",
+    "correctAnswer": "<form>",
+    "answer": 3,
+    "explanation": "Теги <form> барои сохтани формаи HTML истифода мешавад.",
+    "date": "2026-10-03T11:50:19.596Z"
+  },
+  {
+    "id": "1791026972971",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790748875031",
+    "question": "Кадом тег барои гузоштани тасвир истифода мешавад?",
+    "options": [
+      "<picture>",
+      "<image>",
+      "<img>",
+      "<photo>"
+    ],
+    "selectedAnswer": "<picture>",
+    "correctAnswer": "<img>",
+    "answer": 2,
+    "explanation": "Теги img барои нишон додани тасвир истифода мешавад.",
+    "date": "2026-10-03T11:29:32.971Z"
+  },
+  {
+    "id": "1791026973890",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744220093",
+    "question": "Кадом тег як сатри ҷадвалро муайян мекунад?",
+    "options": [
+      "<td>",
+      "<tr>",
+      "<table-row>",
+      "<row>"
+    ],
+    "selectedAnswer": "<row>",
+    "correctAnswer": "<tr>",
+    "answer": 1,
+    "explanation": "Теги <tr> як сатри ҷадвалро муайян мекунад.",
+    "date": "2026-10-03T11:50:20.905Z"
+  },
+  {
+    "id": "1791026974603",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790748870434",
+    "question": "Кадом тег барои сохтани форма истифода мешавад?",
+    "options": [
+      "<input>",
+      "<form>",
+      "<data>",
+      "<fieldset>"
+    ],
+    "selectedAnswer": "<input>",
+    "correctAnswer": "<form>",
+    "answer": 1,
+    "explanation": "Теги <form> барои сохтани формаи HTML истифода мешавад.",
+    "date": "2026-10-03T11:29:34.603Z"
+  },
+  {
+    "id": "1791026975114",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744230911",
+    "question": "Кадом тег ячейкаи одии ҷадвалро муайян мекунад?",
+    "options": [
+      "<cell>",
+      "<td>",
+      "<th>",
+      "<data>"
+    ],
+    "selectedAnswer": "<data>",
+    "correctAnswer": "<td>",
+    "answer": 1,
+    "explanation": "Теги <td> барои ячейкаи одии ҷадвал истифода мешавад.",
+    "date": "2026-10-03T11:50:21.647Z"
+  },
+  {
+    "id": "1791026975642",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744223128",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<text>",
+      "<paragraph>",
+      "<title>",
+      "<p>"
+    ],
+    "selectedAnswer": "<paragraph>",
+    "correctAnswer": "<p>",
+    "answer": 3,
+    "explanation": "Теги p барои навиштани параграф истифода мешавад.",
+    "date": "2026-10-03T11:49:54.360Z"
+  },
+  {
+    "id": "1791026975819",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790748868630",
+    "question": "Кадом тег барои интихоби як ё якчанд вариант истифода мешавад?",
+    "options": [
+      "<choice>",
+      "<select>",
+      "<dropdown>",
+      "<option>"
+    ],
+    "selectedAnswer": "<choice>",
+    "correctAnswer": "<select>",
+    "answer": 1,
+    "explanation": "Теги <select> барои сохтани рӯйхати интихобӣ истифода мешавад.",
+    "date": "2026-10-03T11:29:35.819Z"
+  },
+  {
+    "id": "1791027016938",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749481676",
+    "question": "Кадом хосият барои тағйир додани ранги фони (background) элемент истифода мешавад?",
+    "options": [
+      "bg-color",
+      "color",
+      "background-color",
+      "fill-color"
+    ],
+    "selectedAnswer": "bg-color",
+    "correctAnswer": "background-color",
+    "answer": 2,
+    "explanation": "Хосияти 'background-color' барои гузоштани ранги фон хизмат мекунад.",
+    "date": "2026-10-03T11:30:16.938Z"
+  },
+  {
+    "id": "1791027017522",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749330523",
+    "question": "Кадом тег барои интихоби як ё якчанд вариант истифода мешавад?",
+    "options": [
+      "<dropdown>",
+      "<choice>",
+      "<option>",
+      "<select>"
+    ],
+    "selectedAnswer": "<dropdown>",
+    "correctAnswer": "<select>",
+    "answer": 3,
+    "explanation": "Теги <select> барои сохтани рӯйхати интихобӣ истифода мешавад.",
+    "date": "2026-10-03T11:30:17.522Z"
+  },
+  {
+    "id": "1791027017715",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749330342",
+    "question": "Кадом тег унвони саҳифаро дар tab-и браузер нишон медиҳад?",
+    "options": [
+      "<caption>",
+      "<title>",
+      "<header>",
+      "<name>"
+    ],
+    "selectedAnswer": "<caption>",
+    "correctAnswer": "<title>",
+    "answer": 1,
+    "explanation": "Теги <title> номи саҳифаро дар tab-и браузер муайян мекунад.",
+    "date": "2026-10-03T11:30:17.715Z"
+  },
+  {
+    "id": "1791027017923",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749497635",
+    "question": "Кадом хосият барои сохтани чаҳорчӯба (рамка) атрофи элемент истифода мешавад?",
+    "options": [
+      "padding",
+      "outline",
+      "margin",
+      "border"
+    ],
+    "selectedAnswer": "padding",
+    "correctAnswer": "border",
+    "answer": 3,
+    "explanation": "Хосияти 'border' чаҳорчӯбаи элементро танзим мекунад.",
+    "date": "2026-10-03T11:30:17.923Z"
+  },
+  {
+    "id": "1791027018331",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749325135",
+    "question": "Кадом тег як элементи рӯйхатро муайян мекунад?",
+    "options": [
+      "<ul>",
+      "<item>",
+      "<li>",
+      "<list>"
+    ],
+    "selectedAnswer": "<ul>",
+    "correctAnswer": "<li>",
+    "answer": 2,
+    "explanation": "Теги <li> барои ҳар як элементи рӯйхат истифода мешавад.",
+    "date": "2026-10-03T11:30:18.331Z"
+  },
+  {
+    "id": "1791027018529",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790748871129",
+    "question": "Кадом тег унвони саҳифаро дар tab-и браузер нишон медиҳад?",
+    "options": [
+      "<caption>",
+      "<header>",
+      "<title>",
+      "<name>"
+    ],
+    "selectedAnswer": "<caption>",
+    "correctAnswer": "<title>",
+    "answer": 2,
+    "explanation": "Теги <title> номи саҳифаро дар tab-и браузер муайян мекунад.",
+    "date": "2026-10-03T11:30:18.529Z"
+  },
+  {
+    "id": "1791027019445",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749330685",
+    "question": "Кадом тег варианти дохили <select>-ро муайян мекунад?",
+    "options": [
+      "<select-item>",
+      "<choice>",
+      "<option>",
+      "<item>"
+    ],
+    "selectedAnswer": "<select-item>",
+    "correctAnswer": "<option>",
+    "answer": 2,
+    "explanation": "Теги <option> як варианти интихобшавандаро дар <select> муайян мекунад.",
+    "date": "2026-10-03T11:30:19.445Z"
+  },
+  {
+    "id": "1791027019617",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749324960",
+    "question": "Кадом атрибут роҳи тасвирро дар теги <img> муайян мекунад?",
+    "options": [
+      "href",
+      "src",
+      "path",
+      "url"
+    ],
+    "selectedAnswer": "href",
+    "correctAnswer": "src",
+    "answer": 1,
+    "explanation": "Атрибути src роҳи файл ё URL-и тасвирро муайян мекунад.",
+    "date": "2026-10-03T11:30:19.617Z"
+  },
+  {
+    "id": "1791027019778",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744230911",
+    "question": "Кадом тег ячейкаи одии ҷадвалро муайян мекунад?",
+    "options": [
+      "<data>",
+      "<th>",
+      "<td>",
+      "<cell>"
+    ],
+    "selectedAnswer": "<data>",
+    "correctAnswer": "<td>",
+    "answer": 2,
+    "explanation": "Теги <td> барои ячейкаи одии ҷадвал истифода мешавад.",
+    "date": "2026-10-03T11:30:19.778Z"
+  },
+  {
+    "id": "1791027019962",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749490785",
+    "question": "Кадом хосият сарҳадҳои ҷадвалро (table borders) ба ҳам мепайвандад?",
+    "options": [
+      "table-border: single;",
+      "border-collapse: collapse;",
+      "border-style: join;",
+      "border-spacing: collapse;"
+    ],
+    "selectedAnswer": "table-border: single;",
+    "correctAnswer": "border-collapse: collapse;",
+    "answer": 1,
+    "explanation": "'border-collapse: collapse;' ду хати сарҳади ҷадвалро ба як хат табдил медиҳад.",
+    "date": "2026-10-03T11:30:19.962Z"
+  },
+  {
+    "id": "1791027021045",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744587676",
+    "question": "Кадом тег як сатри ҷадвалро муайян мекунад?",
+    "options": [
+      "<td>",
+      "<tr>",
+      "<table-row>",
+      "<row>"
+    ],
+    "selectedAnswer": "<table-row>",
+    "correctAnswer": "<tr>",
+    "answer": 1,
+    "explanation": "Теги <tr> як сатри ҷадвалро муайян мекунад.",
+    "date": "2026-10-03T11:48:27.613Z"
+  },
+  {
+    "id": "1791027021397",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749326830",
+    "question": "Кадом атрибут матни ивазкунандаи тасвирро муайян мекунад?",
+    "options": [
+      "title",
+      "description",
+      "text",
+      "alt"
+    ],
+    "selectedAnswer": "title",
+    "correctAnswer": "alt",
+    "answer": 3,
+    "explanation": "Атрибути alt матни алтернативии тасвирро муайян мекунад.",
+    "date": "2026-10-03T11:30:21.397Z"
+  },
+  {
+    "id": "1791027021804",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790748869674",
+    "question": "Кадом тег барои гузоштани хати нав истифода мешавад?",
+    "options": [
+      "<break>",
+      "<newline>",
+      "<br>",
+      "<line>"
+    ],
+    "selectedAnswer": "<break>",
+    "correctAnswer": "<br>",
+    "answer": 2,
+    "explanation": "Теги <br> барои гузаштан ба сатри нав истифода мешавад.",
+    "date": "2026-10-03T11:30:21.804Z"
+  },
+  {
+    "id": "1791027022804",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749328603",
+    "question": "Кадом тег ячейкаи одии ҷадвалро муайян мекунад?",
+    "options": [
+      "<th>",
+      "<td>",
+      "<cell>",
+      "<data>"
+    ],
+    "selectedAnswer": "<th>",
+    "correctAnswer": "<td>",
+    "answer": 1,
+    "explanation": "Теги <td> барои ячейкаи одии ҷадвал истифода мешавад.",
+    "date": "2026-10-03T11:30:22.804Z"
+  },
+  {
+    "id": "1791027023202",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749315925",
+    "question": "Кадом тег барои гузоштани тасвир истифода мешавад?",
+    "options": [
+      "<photo>",
+      "<image>",
+      "<picture>",
+      "<img>"
+    ],
+    "selectedAnswer": "<photo>",
+    "correctAnswer": "<img>",
+    "answer": 3,
+    "explanation": "Теги img барои нишон додани тасвир истифода мешавад.",
+    "date": "2026-10-03T11:30:23.202Z"
+  },
+  {
+    "id": "1791027023411",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749328261",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<div>",
+      "<p>",
+      "<text>",
+      "<paragraph>"
+    ],
+    "selectedAnswer": "<div>",
+    "correctAnswer": "<p>",
+    "answer": 1,
+    "explanation": "Теги <p> барои сохтани параграф истифода мешавад.",
+    "date": "2026-10-03T11:30:23.411Z"
+  },
+  {
+    "id": "1791027023597",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749495307",
+    "question": "Синтаксиси дурусти навиштани шарҳ (comment) дар CSS кадом аст?",
+    "options": [
+      "<!-- ин шарҳ аст -->",
+      "// ин шарҳ аст",
+      "/* ин шарҳ аст */",
+      "' ин шарҳ аст"
+    ],
+    "selectedAnswer": "<!-- ин шарҳ аст -->",
+    "correctAnswer": "/* ин шарҳ аст */",
+    "answer": 2,
+    "explanation": "Шарҳҳо дар CSS байни /* ва */ навишта мешаванд.",
+    "date": "2026-10-03T11:30:23.597Z"
+  },
+  {
+    "id": "1791027023786",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749330855",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<div>",
+      "<span>",
+      "<p>",
+      "<h1>"
+    ],
+    "selectedAnswer": "<div>",
+    "correctAnswer": "<h1>",
+    "answer": 3,
+    "explanation": "Теги <h1> барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-10-03T11:30:23.786Z"
+  },
+  {
+    "id": "1791027023978",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749328039",
+    "question": "Кадом атрибут суроғаи пайвандро дар теги <a> муайян мекунад?",
+    "options": [
+      "link",
+      "url",
+      "href",
+      "src"
+    ],
+    "selectedAnswer": "link",
+    "correctAnswer": "href",
+    "answer": 2,
+    "explanation": "Атрибути href суроғаи пайвандро муайян мекунад.",
+    "date": "2026-10-03T11:30:23.978Z"
+  },
+  {
+    "id": "1791027025218",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744223128",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<title>",
+      "<p>",
+      "<paragraph>",
+      "<text>"
+    ],
+    "selectedAnswer": "<title>",
+    "correctAnswer": "<p>",
+    "answer": 1,
+    "explanation": "Теги p барои навиштани параграф истифода мешавад.",
+    "date": "2026-10-03T11:30:25.218Z"
+  },
+  {
+    "id": "1791027025739",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749482956",
+    "question": "Кадом хосият барои пинҳон кардани элемент истифода мешавад, ба тавре ки ҷои он холӣ намонад?",
+    "options": [
+      "position: absolute;",
+      "opacity: 0;",
+      "visibility: hidden;",
+      "display: none;"
+    ],
+    "selectedAnswer": "position: absolute;",
+    "correctAnswer": "display: none;",
+    "answer": 3,
+    "explanation": "'display: none;' элементро пурра аз сохтор пинҳон мекунад ва ҷои онро мепӯшонад.",
+    "date": "2026-10-03T11:30:25.739Z"
+  },
+  {
+    "id": "1791027026265",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749325511",
+    "question": "Кадом тег барои сатри нави матн истифода мешавад?",
+    "options": [
+      "<break>",
+      "<hr>",
+      "<newline>",
+      "<br>"
+    ],
+    "selectedAnswer": "<break>",
+    "correctAnswer": "<br>",
+    "answer": 3,
+    "explanation": "Теги br сатри нав месозад.",
+    "date": "2026-10-03T11:30:26.265Z"
+  },
+  {
+    "id": "1791027026435",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749491835",
+    "question": "Кадом property фосилаи дохилии элементро муайян мекунад?",
+    "options": [
+      "space",
+      "padding",
+      "gap",
+      "margin"
+    ],
+    "selectedAnswer": "space",
+    "correctAnswer": "padding",
+    "answer": 1,
+    "explanation": "padding фосилаи дохили border-и элементро муайян мекунад.",
+    "date": "2026-10-03T11:30:26.435Z"
+  },
+  {
+    "id": "1791027027207",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744232947",
+    "question": "Кадом тег барои сарлавҳаи сутуни ҷадвал истифода мешавад?",
+    "options": [
+      "<thead>",
+      "<th>",
+      "<header>",
+      "<td>"
+    ],
+    "selectedAnswer": "<thead>",
+    "correctAnswer": "<th>",
+    "answer": 1,
+    "explanation": "Теги <th> барои ячейкаи сарлавҳаи ҷадвал истифода мешавад.",
+    "date": "2026-10-03T11:30:27.207Z"
+  },
+  {
+    "id": "1791027027562",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790748873673",
+    "question": "Кадом тег барои майдони воридкунии маълумот истифода мешавад?",
+    "options": [
+      "<field>",
+      "<text>",
+      "<input>",
+      "<enter>"
+    ],
+    "selectedAnswer": "<field>",
+    "correctAnswer": "<input>",
+    "answer": 2,
+    "explanation": "Теги <input> барои гирифтани маълумот аз корбар истифода мешавад.",
+    "date": "2026-10-03T11:30:27.562Z"
+  },
+  {
+    "id": "1791027027898",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749326669",
+    "question": "Кадом атрибут матни ивазкунандаи тасвирро муайян мекунад?",
+    "options": [
+      "text",
+      "title",
+      "alt",
+      "description"
+    ],
+    "selectedAnswer": "text",
+    "correctAnswer": "alt",
+    "answer": 2,
+    "explanation": "Атрибути alt матни алтернативии тасвирро муайян мекунад.",
+    "date": "2026-10-03T11:30:27.898Z"
+  },
+  {
+    "id": "1791027993369",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790748875449",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<paragraph>",
+      "<div>",
+      "<text>",
+      "<p>"
+    ],
+    "selectedAnswer": "<paragraph>",
+    "correctAnswer": "<p>",
+    "answer": 3,
+    "explanation": "Теги <p> барои сохтани параграф истифода мешавад.",
+    "date": "2026-10-03T11:46:33.369Z"
+  },
+  {
+    "id": "1791027993544",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749325856",
+    "question": "Кадом тег барои сохтани пайванд истифода мешавад?",
+    "options": [
+      "<url>",
+      "<link>",
+      "<href>",
+      "<a>"
+    ],
+    "selectedAnswer": "<url>",
+    "correctAnswer": "<a>",
+    "answer": 3,
+    "explanation": "Теги <a> барои сохтани hyperlink истифода мешавад.",
+    "date": "2026-10-03T11:46:33.544Z"
+  },
+  {
+    "id": "1791027993737",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749331369",
+    "question": "Кадом тег як сатри ҷадвалро муайян мекунад?",
+    "options": [
+      "<table-row>",
+      "<tr>",
+      "<td>",
+      "<row>"
+    ],
+    "selectedAnswer": "<table-row>",
+    "correctAnswer": "<tr>",
+    "answer": 1,
+    "explanation": "Теги <tr> як сатри ҷадвалро муайян мекунад.",
+    "date": "2026-10-03T11:46:33.737Z"
+  },
+  {
+    "id": "1791027995418",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749490785",
+    "question": "Кадом хосият сарҳадҳои ҷадвалро (table borders) ба ҳам мепайвандад?",
+    "options": [
+      "border-spacing: collapse;",
+      "border-style: join;",
+      "border-collapse: collapse;",
+      "table-border: single;"
+    ],
+    "selectedAnswer": "border-spacing: collapse;",
+    "correctAnswer": "border-collapse: collapse;",
+    "answer": 2,
+    "explanation": "'border-collapse: collapse;' ду хати сарҳади ҷадвалро ба як хат табдил медиҳад.",
+    "date": "2026-10-03T11:46:35.418Z"
+  },
+  {
+    "id": "1791027996963",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790748869674",
+    "question": "Кадом тег барои гузоштани хати нав истифода мешавад?",
+    "options": [
+      "<line>",
+      "<br>",
+      "<break>",
+      "<newline>"
+    ],
+    "selectedAnswer": "<line>",
+    "correctAnswer": "<br>",
+    "answer": 1,
+    "explanation": "Теги <br> барои гузаштан ба сатри нав истифода мешавад.",
+    "date": "2026-10-03T11:46:36.963Z"
+  },
+  {
+    "id": "1791027997862",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749862097",
+    "question": "Кадом type барои ворид кардани парол истифода мешавад?",
+    "options": [
+      "type=\"secret\"",
+      "type=\"hidden-password\"",
+      "type=\"text\"",
+      "type=\"password\""
+    ],
+    "selectedAnswer": "type=\"secret\"",
+    "correctAnswer": "type=\"password\"",
+    "answer": 3,
+    "explanation": "type=\"password\" матни воридшавандаро ҳамчун парол нишон медиҳад.",
+    "date": "2026-10-03T11:46:37.862Z"
+  },
+  {
+    "id": "1791027998204",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749320925",
+    "question": "Кадом атрибут суроғаи пайвандро дар теги <a> муайян мекунад?",
+    "options": [
+      "url",
+      "link",
+      "src",
+      "href"
+    ],
+    "selectedAnswer": "url",
+    "correctAnswer": "href",
+    "answer": 3,
+    "explanation": "Атрибути href суроғаи пайвандро муайян мекунад.",
+    "date": "2026-10-03T11:46:38.204Z"
+  },
+  {
+    "id": "1791027998748",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749866658",
+    "question": "Кадом тег як элементи рӯйхатро муайян мекунад?",
+    "options": [
+      "<list>",
+      "<item>",
+      "<li>",
+      "<ul>"
+    ],
+    "selectedAnswer": "<list>",
+    "correctAnswer": "<li>",
+    "answer": 2,
+    "explanation": "Теги <li> барои ҳар як элементи рӯйхат истифода мешавад.",
+    "date": "2026-10-03T11:46:38.748Z"
+  },
+  {
+    "id": "1791027998941",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749317652",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<title>",
+      "<text>",
+      "<paragraph>",
+      "<p>"
+    ],
+    "selectedAnswer": "<title>",
+    "correctAnswer": "<p>",
+    "answer": 3,
+    "explanation": "Теги p барои навиштани параграф истифода мешавад.",
+    "date": "2026-10-03T11:46:38.941Z"
+  },
+  {
+    "id": "1791027999109",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749875306",
+    "question": "Кадом тег барои гузоштани хати нав истифода мешавад?",
+    "options": [
+      "<newline>",
+      "<break>",
+      "<line>",
+      "<br>"
+    ],
+    "selectedAnswer": "<newline>",
+    "correctAnswer": "<br>",
+    "answer": 3,
+    "explanation": "Теги <br> барои гузаштан ба сатри нав истифода мешавад.",
+    "date": "2026-10-03T11:46:39.109Z"
+  },
+  {
+    "id": "1791027999651",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749330685",
+    "question": "Кадом тег варианти дохили <select>-ро муайян мекунад?",
+    "options": [
+      "<select-item>",
+      "<option>",
+      "<choice>",
+      "<item>"
+    ],
+    "selectedAnswer": "<select-item>",
+    "correctAnswer": "<option>",
+    "answer": 1,
+    "explanation": "Теги <option> як варианти интихобшавандаро дар <select> муайян мекунад.",
+    "date": "2026-10-03T11:46:39.651Z"
+  },
+  {
+    "id": "1791028000500",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749315925",
+    "question": "Кадом тег барои гузоштани тасвир истифода мешавад?",
+    "options": [
+      "<photo>",
+      "<image>",
+      "<picture>",
+      "<img>"
+    ],
+    "selectedAnswer": "<photo>",
+    "correctAnswer": "<img>",
+    "answer": 3,
+    "explanation": "Теги img барои нишон додани тасвир истифода мешавад.",
+    "date": "2026-10-03T11:46:40.500Z"
+  },
+  {
+    "id": "1791028001195",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744578477",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<text>",
+      "<paragraph>",
+      "<div>",
+      "<p>"
+    ],
+    "selectedAnswer": "<text>",
+    "correctAnswer": "<p>",
+    "answer": 3,
+    "explanation": "Теги <p> барои сохтани параграф истифода мешавад.",
+    "date": "2026-10-03T11:46:41.195Z"
+  },
+  {
+    "id": "1791028002078",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744587676",
+    "question": "Кадом тег як сатри ҷадвалро муайян мекунад?",
+    "options": [
+      "<table-row>",
+      "<row>",
+      "<td>",
+      "<tr>"
+    ],
+    "selectedAnswer": "<table-row>",
+    "correctAnswer": "<tr>",
+    "answer": 3,
+    "explanation": "Теги <tr> як сатри ҷадвалро муайян мекунад.",
+    "date": "2026-10-03T11:46:42.078Z"
+  },
+  {
+    "id": "1791028002594",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744220093",
+    "question": "Кадом тег як сатри ҷадвалро муайян мекунад?",
+    "options": [
+      "<td>",
+      "<tr>",
+      "<row>",
+      "<table-row>"
+    ],
+    "selectedAnswer": "<td>",
+    "correctAnswer": "<tr>",
+    "answer": 1,
+    "explanation": "Теги <tr> як сатри ҷадвалро муайян мекунад.",
+    "date": "2026-10-03T11:46:42.594Z"
+  },
+  {
+    "id": "1791028003416",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749481676",
+    "question": "Кадом хосият барои тағйир додани ранги фони (background) элемент истифода мешавад?",
+    "options": [
+      "color",
+      "fill-color",
+      "background-color",
+      "bg-color"
+    ],
+    "selectedAnswer": "color",
+    "correctAnswer": "background-color",
+    "answer": 2,
+    "explanation": "Хосияти 'background-color' барои гузоштани ранги фон хизмат мекунад.",
+    "date": "2026-10-03T11:46:43.416Z"
+  },
+  {
+    "id": "1791028003594",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749328439",
+    "question": "Кадом тег барои гузоштани хати нав истифода мешавад?",
+    "options": [
+      "<newline>",
+      "<br>",
+      "<break>",
+      "<line>"
+    ],
+    "selectedAnswer": "<newline>",
+    "correctAnswer": "<br>",
+    "answer": 1,
+    "explanation": "Теги <br> барои гузаштан ба сатри нав истифода мешавад.",
+    "date": "2026-10-03T11:46:43.594Z"
+  },
+  {
+    "id": "1791028004010",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749325135",
+    "question": "Кадом тег як элементи рӯйхатро муайян мекунад?",
+    "options": [
+      "<list>",
+      "<item>",
+      "<li>",
+      "<ul>"
+    ],
+    "selectedAnswer": "<list>",
+    "correctAnswer": "<li>",
+    "answer": 2,
+    "explanation": "Теги <li> барои ҳар як элементи рӯйхат истифода мешавад.",
+    "date": "2026-10-03T11:46:44.010Z"
+  },
+  {
+    "id": "1791028004404",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749870794",
+    "question": "Кадом тег барои сарлавҳаи сутуни ҷадвал истифода мешавад?",
+    "options": [
+      "<td>",
+      "<th>",
+      "<header>",
+      "<thead>"
+    ],
+    "selectedAnswer": "<td>",
+    "correctAnswer": "<th>",
+    "answer": 1,
+    "explanation": "Теги <th> барои ячейкаи сарлавҳаи ҷадвал истифода мешавад.",
+    "date": "2026-10-03T11:46:44.404Z"
+  },
+  {
+    "id": "1791028005210",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749319424",
+    "question": "Кадом тег барои сохтани ҷадвал истифода мешавад?",
+    "options": [
+      "<grid>",
+      "<tab>",
+      "<table>",
+      "<td>"
+    ],
+    "selectedAnswer": "<grid>",
+    "correctAnswer": "<table>",
+    "answer": 2,
+    "explanation": "Теги <table> барои сохтани ҷадвал истифода мешавад.",
+    "date": "2026-10-03T11:46:45.210Z"
+  },
+  {
+    "id": "1791028005636",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749875987",
+    "question": "Кадом тег барои рӯйхати рақамдор истифода мешавад?",
+    "options": [
+      "<ul>",
+      "<li>",
+      "<ol>",
+      "<list>"
+    ],
+    "selectedAnswer": "<ul>",
+    "correctAnswer": "<ol>",
+    "answer": 2,
+    "explanation": "Теги ol рӯйхати рақамдор месозад.",
+    "date": "2026-10-03T11:46:45.636Z"
+  },
+  {
+    "id": "1791028005836",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749326669",
+    "question": "Кадом атрибут матни ивазкунандаи тасвирро муайян мекунад?",
+    "options": [
+      "title",
+      "description",
+      "alt",
+      "text"
+    ],
+    "selectedAnswer": "title",
+    "correctAnswer": "alt",
+    "answer": 2,
+    "explanation": "Атрибути alt матни алтернативии тасвирро муайян мекунад.",
+    "date": "2026-10-03T11:46:45.836Z"
+  },
+  {
+    "id": "1791028006236",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790748757627",
+    "question": "Кадом синф барои андозаи шрифти калон истифода мешавад?",
+    "options": [
+      "font-large",
+      "size-lg",
+      "text-big",
+      "text-lg"
+    ],
+    "selectedAnswer": "font-large",
+    "correctAnswer": "text-lg",
+    "answer": 3,
+    "explanation": "text-lg андозаи шрифтро калонтар мекунад (1.125rem).",
+    "date": "2026-10-03T11:46:46.236Z"
+  },
+  {
+    "id": "1791028006437",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749866204",
+    "question": "Кадом тег барои сохтани форма истифода мешавад?",
+    "options": [
+      "<fieldset>",
+      "<form>",
+      "<input>",
+      "<data>"
+    ],
+    "selectedAnswer": "<fieldset>",
+    "correctAnswer": "<form>",
+    "answer": 1,
+    "explanation": "Теги <form> барои сохтани формаи HTML истифода мешавад.",
+    "date": "2026-10-03T11:46:46.437Z"
+  },
+  {
+    "id": "1791028006837",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744230911",
+    "question": "Кадом тег ячейкаи одии ҷадвалро муайян мекунад?",
+    "options": [
+      "<data>",
+      "<cell>",
+      "<td>",
+      "<th>"
+    ],
+    "selectedAnswer": "<data>",
+    "correctAnswer": "<td>",
+    "answer": 2,
+    "explanation": "Теги <td> барои ячейкаи одии ҷадвал истифода мешавад.",
+    "date": "2026-10-03T11:46:46.837Z"
+  },
+  {
+    "id": "1791028007037",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749871426",
+    "question": "Кадом тег барои қисми мавзӯии ҳуҷҷат истифода мешавад?",
+    "options": [
+      "<group>",
+      "<part>",
+      "<area>",
+      "<section>"
+    ],
+    "selectedAnswer": "<group>",
+    "correctAnswer": "<section>",
+    "answer": 3,
+    "explanation": "Теги <section> барои гурӯҳбандии мундариҷаи марбут ба як мавзӯъ истифода мешавад.",
+    "date": "2026-10-03T11:46:47.037Z"
+  },
+  {
+    "id": "1791028008026",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749870947",
+    "question": "Кадом тег қисми асосии намоишшавандаи HTML-ро дар бар мегирад?",
+    "options": [
+      "<head>",
+      "<main>",
+      "<body>",
+      "<html>"
+    ],
+    "selectedAnswer": "<head>",
+    "correctAnswer": "<body>",
+    "answer": 2,
+    "explanation": "Теги <body> мундариҷаи асосии намоишшавандаи саҳифаро дар бар мегирад.",
+    "date": "2026-10-03T11:46:48.026Z"
+  },
+  {
+    "id": "1791028008219",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749319948",
+    "question": "Кадом тег қисми асосии намоишшавандаи HTML-ро дар бар мегирад?",
+    "options": [
+      "<main>",
+      "<head>",
+      "<body>",
+      "<html>"
+    ],
+    "selectedAnswer": "<main>",
+    "correctAnswer": "<body>",
+    "answer": 2,
+    "explanation": "Теги <body> мундариҷаи асосии намоишшавандаи саҳифаро дар бар мегирад.",
+    "date": "2026-10-03T11:46:48.219Z"
+  },
+  {
+    "id": "1791028008441",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790749324960",
+    "question": "Кадом атрибут роҳи тасвирро дар теги <img> муайян мекунад?",
+    "options": [
+      "path",
+      "href",
+      "url",
+      "src"
+    ],
+    "selectedAnswer": "path",
+    "correctAnswer": "src",
+    "answer": 3,
+    "explanation": "Атрибути src роҳи файл ё URL-и тасвирро муайян мекунад.",
+    "date": "2026-10-03T11:46:48.441Z"
+  },
+  {
+    "id": "1791028020771",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744220093",
+    "question": "Кадом тег як сатри ҷадвалро муайян мекунад?",
+    "options": [
+      "<row>",
+      "<td>",
+      "<table-row>",
+      "<tr>"
+    ],
+    "selectedAnswer": "<row>",
+    "correctAnswer": "<tr>",
+    "answer": 3,
+    "explanation": "Теги <tr> як сатри ҷадвалро муайян мекунад.",
+    "date": "2026-10-03T11:47:00.771Z"
+  },
+  {
+    "id": "1791028020938",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744223128",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<title>",
+      "<paragraph>",
+      "<p>",
+      "<text>"
+    ],
+    "selectedAnswer": "<title>",
+    "correctAnswer": "<p>",
+    "answer": 2,
+    "explanation": "Теги p барои навиштани параграф истифода мешавад.",
+    "date": "2026-10-03T11:47:00.938Z"
+  },
+  {
+    "id": "1791028021274",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744230911",
+    "question": "Кадом тег ячейкаи одии ҷадвалро муайян мекунад?",
+    "options": [
+      "<cell>",
+      "<th>",
+      "<data>",
+      "<td>"
+    ],
+    "selectedAnswer": "<cell>",
+    "correctAnswer": "<td>",
+    "answer": 3,
+    "explanation": "Теги <td> барои ячейкаи одии ҷадвал истифода мешавад.",
+    "date": "2026-10-03T11:47:01.274Z"
+  },
+  {
+    "id": "1791028021452",
+    "userId": "1789962379836",
+    "technology": "Хатогиҳои ман",
+    "questionId": "1790744580604",
+    "question": "Кадом тег барои сарлавҳаи сутуни ҷадвал истифода мешавад?",
+    "options": [
+      "<header>",
+      "<thead>",
+      "<th>",
+      "<td>"
+    ],
+    "selectedAnswer": "<header>",
+    "correctAnswer": "<th>",
+    "answer": 2,
+    "explanation": "Теги <th> барои ячейкаи сарлавҳаи ҷадвал истифода мешавад.",
+    "date": "2026-10-03T11:47:01.452Z"
+  },
+  {
+    "id": "1791091573025",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-1",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<p>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги <h1> барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-10-04T05:26:13.025Z"
+  },
+  {
+    "id": "1791091573273",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-31",
+    "question": "Кадом тег барои қисми поёнии саҳифа истифода мешавад?",
+    "options": [
+      "<bottom>",
+      "<footer>",
+      "<end>",
+      "<down>"
+    ],
+    "selectedAnswer": "<bottom>",
+    "correctAnswer": "<footer>",
+    "answer": 1,
+    "explanation": "Теги <footer> барои қисми поёнии саҳифа ё як бахш истифода мешавад.",
+    "date": "2026-10-04T05:26:13.273Z"
+  },
+  {
+    "id": "1791091573521",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-24",
+    "question": "Кадом type барои ворид кардани парол истифода мешавад?",
+    "options": [
+      "type=\"text\"",
+      "type=\"password\"",
+      "type=\"secret\"",
+      "type=\"hidden-password\""
+    ],
+    "selectedAnswer": "type=\"text\"",
+    "correctAnswer": "type=\"password\"",
+    "answer": 1,
+    "explanation": "type=\"password\" матни воридшавандаро ҳамчун парол нишон медиҳад.",
+    "date": "2026-10-04T05:26:13.521Z"
+  },
+  {
+    "id": "1791091573767",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-30",
+    "question": "Кадом тег барои қисми мавзӯии ҳуҷҷат истифода мешавад?",
+    "options": [
+      "<part>",
+      "<section>",
+      "<area>",
+      "<group>"
+    ],
+    "selectedAnswer": "<part>",
+    "correctAnswer": "<section>",
+    "answer": 1,
+    "explanation": "Теги <section> барои гурӯҳбандии мундариҷаи марбут ба як мавзӯъ истифода мешавад.",
+    "date": "2026-10-04T05:26:13.767Z"
+  },
+  {
+    "id": "1791091574016",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-32",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<p>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги h1 барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-10-04T05:26:14.017Z"
+  },
+  {
+    "id": "1791091574270",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-33",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<text>",
+      "<paragraph>",
+      "<p>",
+      "<title>"
+    ],
+    "selectedAnswer": "<text>",
+    "correctAnswer": "<p>",
+    "answer": 2,
+    "explanation": "Теги p барои навиштани параграф истифода мешавад.",
+    "date": "2026-10-04T05:26:14.270Z"
+  },
+  {
+    "id": "1791091575270",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-25",
+    "question": "Кадом тег барои тугма истифода мешавад?",
+    "options": [
+      "<click>",
+      "<button>",
+      "<btn>",
+      "<input-button>"
+    ],
+    "selectedAnswer": "<click>",
+    "correctAnswer": "<button>",
+    "answer": 1,
+    "explanation": "Теги <button> барои сохтани тугма истифода мешавад.",
+    "date": "2026-10-04T05:26:15.270Z"
+  },
+  {
+    "id": "1791091575789",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-11",
+    "question": "Кадом тег барои гузоштани сарлавҳаи сатҳи дуюм истифода мешавад?",
+    "options": [
+      "<h1>",
+      "<h2>",
+      "<h3>",
+      "<head>"
+    ],
+    "selectedAnswer": "<h1>",
+    "correctAnswer": "<h2>",
+    "answer": 1,
+    "explanation": "Теги <h2> барои сарлавҳаи сатҳи дуюм истифода мешавад.",
+    "date": "2026-10-04T05:26:15.789Z"
+  },
+  {
+    "id": "1791091576381",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-2",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<p>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги <h1> барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-10-04T05:26:16.381Z"
+  },
+  {
+    "id": "1791091607282",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-9",
+    "question": "Кадом тег як элементи рӯйхатро муайян мекунад?",
+    "options": [
+      "<item>",
+      "<li>",
+      "<ul>",
+      "<list>"
+    ],
+    "selectedAnswer": "<item>",
+    "correctAnswer": "<li>",
+    "answer": 1,
+    "explanation": "Теги <li> барои ҳар як элементи рӯйхат истифода мешавад.",
+    "date": "2026-10-04T05:26:47.282Z"
+  },
+  {
+    "id": "1791091607477",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-20",
+    "question": "Кадом тег ячейкаи одии ҷадвалро муайян мекунад?",
+    "options": [
+      "<cell>",
+      "<th>",
+      "<td>",
+      "<data>"
+    ],
+    "selectedAnswer": "<cell>",
+    "correctAnswer": "<td>",
+    "answer": 2,
+    "explanation": "Теги <td> барои ячейкаи одии ҷадвал истифода мешавад.",
+    "date": "2026-10-04T05:26:47.477Z"
+  },
+  {
+    "id": "1791091607673",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-33",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<text>",
+      "<paragraph>",
+      "<p>",
+      "<title>"
+    ],
+    "selectedAnswer": "<text>",
+    "correctAnswer": "<p>",
+    "answer": 2,
+    "explanation": "Теги p барои навиштани параграф истифода мешавад.",
+    "date": "2026-10-04T05:26:47.673Z"
+  },
+  {
+    "id": "1791091607887",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-25",
+    "question": "Кадом тег барои тугма истифода мешавад?",
+    "options": [
+      "<click>",
+      "<button>",
+      "<btn>",
+      "<input-button>"
+    ],
+    "selectedAnswer": "<click>",
+    "correctAnswer": "<button>",
+    "answer": 1,
+    "explanation": "Теги <button> барои сохтани тугма истифода мешавад.",
+    "date": "2026-10-04T05:26:47.887Z"
+  },
+  {
+    "id": "1791091608094",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-39",
+    "question": "Кадом тег барои сатри нави матн истифода мешавад?",
+    "options": [
+      "<break>",
+      "<br>",
+      "<newline>",
+      "<hr>"
+    ],
+    "selectedAnswer": "<break>",
+    "correctAnswer": "<br>",
+    "answer": 1,
+    "explanation": "Теги br сатри нав месозад.",
+    "date": "2026-10-04T05:26:48.094Z"
+  },
+  {
+    "id": "1791091608304",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-31",
+    "question": "Кадом тег барои қисми поёнии саҳифа истифода мешавад?",
+    "options": [
+      "<bottom>",
+      "<footer>",
+      "<end>",
+      "<down>"
+    ],
+    "selectedAnswer": "<bottom>",
+    "correctAnswer": "<footer>",
+    "answer": 1,
+    "explanation": "Теги <footer> барои қисми поёнии саҳифа ё як бахш истифода мешавад.",
+    "date": "2026-10-04T05:26:48.304Z"
+  },
+  {
+    "id": "1791091608509",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-27",
+    "question": "Кадом тег варианти дохили <select>-ро муайян мекунад?",
+    "options": [
+      "<choice>",
+      "<option>",
+      "<item>",
+      "<select-item>"
+    ],
+    "selectedAnswer": "<choice>",
+    "correctAnswer": "<option>",
+    "answer": 1,
+    "explanation": "Теги <option> як варианти интихобшавандаро дар <select> муайян мекунад.",
+    "date": "2026-10-04T05:26:48.509Z"
+  },
+  {
+    "id": "1791091608703",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-36",
+    "question": "Кадом тег барои гузоштани тасвир истифода мешавад?",
+    "options": [
+      "<image>",
+      "<picture>",
+      "<img>",
+      "<photo>"
+    ],
+    "selectedAnswer": "<image>",
+    "correctAnswer": "<img>",
+    "answer": 2,
+    "explanation": "Теги img барои нишон додани тасвир истифода мешавад.",
+    "date": "2026-10-04T05:26:48.703Z"
+  },
+  {
+    "id": "1791091608893",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-3",
+    "question": "Кадом тег барои параграф истифода мешавад?",
+    "options": [
+      "<text>",
+      "<p>",
+      "<paragraph>",
+      "<div>"
+    ],
+    "selectedAnswer": "<text>",
+    "correctAnswer": "<p>",
+    "answer": 1,
+    "explanation": "Теги <p> барои сохтани параграф истифода мешавад.",
+    "date": "2026-10-04T05:26:48.893Z"
+  },
+  {
+    "id": "1791091609102",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-17",
+    "question": "Кадом декларация нишон медиҳад, ки ҳуҷҷат HTML5 мебошад?",
+    "options": [
+      "<html5>",
+      "<doctype html>",
+      "<!DOCTYPE html>",
+      "<HTML5>"
+    ],
+    "selectedAnswer": "<html5>",
+    "correctAnswer": "<!DOCTYPE html>",
+    "answer": 2,
+    "explanation": "Декларацияи <!DOCTYPE html> барои нишон додани HTML5 истифода мешавад.",
+    "date": "2026-10-04T05:26:49.102Z"
+  },
+  {
+    "id": "1791136506606",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-15",
+    "question": "Кадом тег маълумоти мета ва пайвастҳои CSS-ро дар бар мегирад?",
+    "options": [
+      "<body>",
+      "<head>",
+      "<meta>",
+      "<info>"
+    ],
+    "selectedAnswer": "<body>",
+    "correctAnswer": "<head>",
+    "answer": 1,
+    "explanation": "Теги <head> маълумоти техникӣ, title, meta ва пайвастҳои stylesheet-ро нигоҳ медорад.",
+    "date": "2026-10-04T17:55:06.606Z"
+  },
+  {
+    "id": "1791136507021",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-9",
+    "question": "Кадом тег як элементи рӯйхатро муайян мекунад?",
+    "options": [
+      "<item>",
+      "<li>",
+      "<ul>",
+      "<list>"
+    ],
+    "selectedAnswer": "<item>",
+    "correctAnswer": "<li>",
+    "answer": 1,
+    "explanation": "Теги <li> барои ҳар як элементи рӯйхат истифода мешавад.",
+    "date": "2026-10-04T17:55:07.021Z"
+  },
+  {
+    "id": "1791136507335",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-36",
+    "question": "Кадом тег барои гузоштани тасвир истифода мешавад?",
+    "options": [
+      "<image>",
+      "<picture>",
+      "<img>",
+      "<photo>"
+    ],
+    "selectedAnswer": "<image>",
+    "correctAnswer": "<img>",
+    "answer": 2,
+    "explanation": "Теги img барои нишон додани тасвир истифода мешавад.",
+    "date": "2026-10-04T17:55:07.335Z"
+  },
+  {
+    "id": "1791136507509",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-35",
+    "question": "Кадом атрибут суроғаи пайвандро муайян мекунад?",
+    "options": [
+      "src",
+      "href",
+      "alt",
+      "link"
+    ],
+    "selectedAnswer": "src",
+    "correctAnswer": "href",
+    "answer": 1,
+    "explanation": "Атрибути href суроғаи пайвандро нигоҳ медорад.",
+    "date": "2026-10-04T17:55:07.509Z"
+  },
+  {
+    "id": "1791136507697",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-19",
+    "question": "Кадом тег як сатри ҷадвалро муайян мекунад?",
+    "options": [
+      "<td>",
+      "<tr>",
+      "<row>",
+      "<table-row>"
+    ],
+    "selectedAnswer": "<td>",
+    "correctAnswer": "<tr>",
+    "answer": 1,
+    "explanation": "Теги <tr> як сатри ҷадвалро муайян мекунад.",
+    "date": "2026-10-04T17:55:07.697Z"
+  },
+  {
+    "id": "1791136507914",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-5",
+    "question": "Кадом атрибут суроғаи пайвандро дар теги <a> муайян мекунад?",
+    "options": [
+      "src",
+      "link",
+      "href",
+      "url"
+    ],
+    "selectedAnswer": "src",
+    "correctAnswer": "href",
+    "answer": 2,
+    "explanation": "Атрибути href суроғаи пайвандро муайян мекунад.",
+    "date": "2026-10-04T17:55:07.914Z"
+  },
+  {
+    "id": "1791136508070",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-8",
+    "question": "Кадом тег барои рӯйхати номунтазам истифода мешавад?",
+    "options": [
+      "<ol>",
+      "<list>",
+      "<ul>",
+      "<li>"
+    ],
+    "selectedAnswer": "<ol>",
+    "correctAnswer": "<ul>",
+    "answer": 2,
+    "explanation": "Теги <ul> барои сохтани рӯйхати номунтазам истифода мешавад.",
+    "date": "2026-10-04T17:55:08.070Z"
+  },
+  {
+    "id": "1791136508247",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-25",
+    "question": "Кадом тег барои тугма истифода мешавад?",
+    "options": [
+      "<click>",
+      "<button>",
+      "<btn>",
+      "<input-button>"
+    ],
+    "selectedAnswer": "<click>",
+    "correctAnswer": "<button>",
+    "answer": 1,
+    "explanation": "Теги <button> барои сохтани тугма истифода мешавад.",
+    "date": "2026-10-04T17:55:08.247Z"
+  },
+  {
+    "id": "1791136508427",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-38",
+    "question": "Кадом тег барои рӯйхати рақамдор истифода мешавад?",
+    "options": [
+      "<ul>",
+      "<li>",
+      "<ol>",
+      "<list>"
+    ],
+    "selectedAnswer": "<ul>",
+    "correctAnswer": "<ol>",
+    "answer": 2,
+    "explanation": "Теги ol рӯйхати рақамдор месозад.",
+    "date": "2026-10-04T17:55:08.427Z"
+  },
+  {
+    "id": "1791136508621",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-4",
+    "question": "Кадом тег барои сохтани пайванд истифода мешавад?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "selectedAnswer": "<link>",
+    "correctAnswer": "<a>",
+    "answer": 1,
+    "explanation": "Теги <a> барои сохтани hyperlink истифода мешавад.",
+    "date": "2026-10-04T17:55:08.621Z"
+  },
+  {
+    "id": "1791205928507",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-19",
+    "question": "Кадом тег як сатри ҷадвалро муайян мекунад?",
+    "options": [
+      "<td>",
+      "<tr>",
+      "<row>",
+      "<table-row>"
+    ],
+    "selectedAnswer": "<td>",
+    "correctAnswer": "<tr>",
+    "answer": 1,
+    "explanation": "Теги <tr> як сатри ҷадвалро муайян мекунад.",
+    "date": "2026-10-05T13:12:08.507Z"
+  },
+  {
+    "id": "1791205928515",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-19",
+    "question": "Кадом тег як сатри ҷадвалро муайян мекунад?",
+    "options": [
+      "<td>",
+      "<tr>",
+      "<row>",
+      "<table-row>"
+    ],
+    "selectedAnswer": "<td>",
+    "correctAnswer": "<tr>",
+    "answer": 1,
+    "explanation": "Теги <tr> як сатри ҷадвалро муайян мекунад.",
+    "date": "2026-10-05T13:12:08.515Z"
+  },
+  {
+    "id": "1791205929071",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-9",
+    "question": "Кадом тег як элементи рӯйхатро муайян мекунад?",
+    "options": [
+      "<item>",
+      "<li>",
+      "<ul>",
+      "<list>"
+    ],
+    "selectedAnswer": "<item>",
+    "correctAnswer": "<li>",
+    "answer": 1,
+    "explanation": "Теги <li> барои ҳар як элементи рӯйхат истифода мешавад.",
+    "date": "2026-10-05T13:12:09.071Z"
+  },
+  {
+    "id": "1791205929294",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-28",
+    "question": "Кадом тег барои қисми асосии мустақили мундариҷа истифода мешавад?",
+    "options": [
+      "<section>",
+      "<main>",
+      "<content>",
+      "<article-main>"
+    ],
+    "selectedAnswer": "<section>",
+    "correctAnswer": "<main>",
+    "answer": 1,
+    "explanation": "Теги <main> мундариҷаи асосии ҳуҷҷатро муайян мекунад.",
+    "date": "2026-10-05T13:12:09.294Z"
+  },
+  {
+    "id": "1791205929739",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-24",
+    "question": "Кадом type барои ворид кардани парол истифода мешавад?",
+    "options": [
+      "type=\"text\"",
+      "type=\"password\"",
+      "type=\"secret\"",
+      "type=\"hidden-password\""
+    ],
+    "selectedAnswer": "type=\"text\"",
+    "correctAnswer": "type=\"password\"",
+    "answer": 1,
+    "explanation": "type=\"password\" матни воридшавандаро ҳамчун парол нишон медиҳад.",
+    "date": "2026-10-05T13:12:09.739Z"
+  },
+  {
+    "id": "1791205929974",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-31",
+    "question": "Кадом тег барои қисми поёнии саҳифа истифода мешавад?",
+    "options": [
+      "<bottom>",
+      "<footer>",
+      "<end>",
+      "<down>"
+    ],
+    "selectedAnswer": "<bottom>",
+    "correctAnswer": "<footer>",
+    "answer": 1,
+    "explanation": "Теги <footer> барои қисми поёнии саҳифа ё як бахш истифода мешавад.",
+    "date": "2026-10-05T13:12:09.974Z"
+  },
+  {
+    "id": "1791205930231",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-15",
+    "question": "Кадом тег маълумоти мета ва пайвастҳои CSS-ро дар бар мегирад?",
+    "options": [
+      "<body>",
+      "<head>",
+      "<meta>",
+      "<info>"
+    ],
+    "selectedAnswer": "<body>",
+    "correctAnswer": "<head>",
+    "answer": 1,
+    "explanation": "Теги <head> маълумоти техникӣ, title, meta ва пайвастҳои stylesheet-ро нигоҳ медорад.",
+    "date": "2026-10-05T13:12:10.231Z"
+  },
+  {
+    "id": "1791205940157",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-30",
+    "question": "Кадом тег барои қисми мавзӯии ҳуҷҷат истифода мешавад?",
+    "options": [
+      "<part>",
+      "<section>",
+      "<area>",
+      "<group>"
+    ],
+    "selectedAnswer": "<part>",
+    "correctAnswer": "<section>",
+    "answer": 1,
+    "explanation": "Теги <section> барои гурӯҳбандии мундариҷаи марбут ба як мавзӯъ истифода мешавад.",
+    "date": "2026-10-05T13:12:20.157Z"
+  },
+  {
+    "id": "1791205940366",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-8",
+    "question": "Кадом тег барои рӯйхати номунтазам истифода мешавад?",
+    "options": [
+      "<ol>",
+      "<list>",
+      "<ul>",
+      "<li>"
+    ],
+    "selectedAnswer": "<ol>",
+    "correctAnswer": "<ul>",
+    "answer": 2,
+    "explanation": "Теги <ul> барои сохтани рӯйхати номунтазам истифода мешавад.",
+    "date": "2026-10-05T13:12:20.366Z"
+  },
+  {
+    "id": "1791205940581",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-27",
+    "question": "Кадом тег варианти дохили <select>-ро муайян мекунад?",
+    "options": [
+      "<choice>",
+      "<option>",
+      "<item>",
+      "<select-item>"
+    ],
+    "selectedAnswer": "<choice>",
+    "correctAnswer": "<option>",
+    "answer": 1,
+    "explanation": "Теги <option> як варианти интихобшавандаро дар <select> муайян мекунад.",
+    "date": "2026-10-05T13:12:20.581Z"
+  },
+  {
+    "id": "1791205940783",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-36",
+    "question": "Кадом тег барои гузоштани тасвир истифода мешавад?",
+    "options": [
+      "<image>",
+      "<picture>",
+      "<img>",
+      "<photo>"
+    ],
+    "selectedAnswer": "<image>",
+    "correctAnswer": "<img>",
+    "answer": 2,
+    "explanation": "Теги img барои нишон додани тасвир истифода мешавад.",
+    "date": "2026-10-05T13:12:20.783Z"
+  },
+  {
+    "id": "1791205941009",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-10",
+    "question": "Кадом тег барои рӯйхати рақамдор истифода мешавад?",
+    "options": [
+      "<ul>",
+      "<li>",
+      "<ol>",
+      "<list>"
+    ],
+    "selectedAnswer": "<ul>",
+    "correctAnswer": "<ol>",
+    "answer": 2,
+    "explanation": "Теги <ol> рӯйхати тартибдодашуда ё рақамдор месозад.",
+    "date": "2026-10-05T13:12:21.009Z"
+  },
+  {
+    "id": "1791205941213",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-1",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<p>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги <h1> барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-10-05T13:12:21.213Z"
+  },
+  {
+    "id": "1791205941431",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-13",
+    "question": "Кадом тег барои сохтани хатти уфуқӣ истифода мешавад?",
+    "options": [
+      "<line>",
+      "<hr>",
+      "<border>",
+      "<horizontal>"
+    ],
+    "selectedAnswer": "<line>",
+    "correctAnswer": "<hr>",
+    "answer": 1,
+    "explanation": "Теги <hr> хатти уфуқиро дар саҳифа нишон медиҳад.",
+    "date": "2026-10-05T13:12:21.431Z"
+  },
+  {
+    "id": "1791205941619",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-25",
+    "question": "Кадом тег барои тугма истифода мешавад?",
+    "options": [
+      "<click>",
+      "<button>",
+      "<btn>",
+      "<input-button>"
+    ],
+    "selectedAnswer": "<click>",
+    "correctAnswer": "<button>",
+    "answer": 1,
+    "explanation": "Теги <button> барои сохтани тугма истифода мешавад.",
+    "date": "2026-10-05T13:12:21.619Z"
+  },
+  {
+    "id": "1791205941821",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-24",
+    "question": "Кадом type барои ворид кардани парол истифода мешавад?",
+    "options": [
+      "type=\"text\"",
+      "type=\"password\"",
+      "type=\"secret\"",
+      "type=\"hidden-password\""
+    ],
+    "selectedAnswer": "type=\"text\"",
+    "correctAnswer": "type=\"password\"",
+    "answer": 1,
+    "explanation": "type=\"password\" матни воридшавандаро ҳамчун парол нишон медиҳад.",
+    "date": "2026-10-05T13:12:21.821Z"
+  },
+  {
+    "id": "1791205954240",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-5",
+    "question": "Кадом атрибут суроғаи пайвандро дар теги <a> муайян мекунад?",
+    "options": [
+      "src",
+      "link",
+      "href",
+      "url"
+    ],
+    "selectedAnswer": "src",
+    "correctAnswer": "href",
+    "answer": 2,
+    "explanation": "Атрибути href суроғаи пайвандро муайян мекунад.",
+    "date": "2026-10-05T13:12:34.240Z"
+  },
+  {
+    "id": "1791205954427",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-31",
+    "question": "Кадом тег барои қисми поёнии саҳифа истифода мешавад?",
+    "options": [
+      "<bottom>",
+      "<footer>",
+      "<end>",
+      "<down>"
+    ],
+    "selectedAnswer": "<bottom>",
+    "correctAnswer": "<footer>",
+    "answer": 1,
+    "explanation": "Теги <footer> барои қисми поёнии саҳифа ё як бахш истифода мешавад.",
+    "date": "2026-10-05T13:12:34.427Z"
+  },
+  {
+    "id": "1791205955000",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-21",
+    "question": "Кадом тег барои сарлавҳаи сутуни ҷадвал истифода мешавад?",
+    "options": [
+      "<thead>",
+      "<th>",
+      "<header>",
+      "<td>"
+    ],
+    "selectedAnswer": "<td>",
+    "correctAnswer": "<th>",
+    "answer": 1,
+    "explanation": "Теги <th> барои ячейкаи сарлавҳаи ҷадвал истифода мешавад.",
+    "date": "2026-10-05T13:12:35.000Z"
+  },
+  {
+    "id": "1791205955204",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-23",
+    "question": "Кадом тег барои майдони воридкунии маълумот истифода мешавад?",
+    "options": [
+      "<input>",
+      "<text>",
+      "<field>",
+      "<enter>"
+    ],
+    "selectedAnswer": "<enter>",
+    "correctAnswer": "<input>",
+    "answer": 0,
+    "explanation": "Теги <input> барои гирифтани маълумот аз корбар истифода мешавад.",
+    "date": "2026-10-05T13:12:35.204Z"
+  },
+  {
+    "id": "1791205955399",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-4",
+    "question": "Кадом тег барои сохтани пайванд истифода мешавад?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "selectedAnswer": "<url>",
+    "correctAnswer": "<a>",
+    "answer": 1,
+    "explanation": "Теги <a> барои сохтани hyperlink истифода мешавад.",
+    "date": "2026-10-05T13:12:35.399Z"
+  },
+  {
+    "id": "1791205955811",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-2",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<span>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги <h1> барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-10-05T13:12:35.811Z"
+  },
+  {
+    "id": "1791205956040",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-9",
+    "question": "Кадом тег як элементи рӯйхатро муайян мекунад?",
+    "options": [
+      "<item>",
+      "<li>",
+      "<ul>",
+      "<list>"
+    ],
+    "selectedAnswer": "<item>",
+    "correctAnswer": "<li>",
+    "answer": 1,
+    "explanation": "Теги <li> барои ҳар як элементи рӯйхат истифода мешавад.",
+    "date": "2026-10-05T13:12:36.040Z"
+  },
+  {
+    "id": "1791205957210",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-27",
+    "question": "Кадом тег варианти дохили <select>-ро муайян мекунад?",
+    "options": [
+      "<choice>",
+      "<option>",
+      "<item>",
+      "<select-item>"
+    ],
+    "selectedAnswer": "<select-item>",
+    "correctAnswer": "<option>",
+    "answer": 1,
+    "explanation": "Теги <option> як варианти интихобшавандаро дар <select> муайян мекунад.",
+    "date": "2026-10-05T13:12:37.210Z"
+  },
+  {
+    "id": "1791205961824",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-32",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<p>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги h1 барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-10-05T13:12:41.824Z"
+  },
+  {
+    "id": "1791209173888",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-2",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<p>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги <h1> барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-10-05T14:06:13.888Z"
+  },
+  {
+    "id": "1791209174043",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-32",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<p>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги h1 барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-10-05T14:06:14.043Z"
+  },
+  {
+    "id": "1791209174218",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-14",
+    "question": "Кадом тег қисми асосии намоишшавандаи HTML-ро дар бар мегирад?",
+    "options": [
+      "<head>",
+      "<html>",
+      "<body>",
+      "<main>"
+    ],
+    "selectedAnswer": "<head>",
+    "correctAnswer": "<body>",
+    "answer": 2,
+    "explanation": "Теги <body> мундариҷаи асосии намоишшавандаи саҳифаро дар бар мегирад.",
+    "date": "2026-10-05T14:06:14.218Z"
+  },
+  {
+    "id": "1791209174389",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-1",
+    "question": "Кадом тег барои сарлавҳаи асосӣ истифода мешавад?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "selectedAnswer": "<p>",
+    "correctAnswer": "<h1>",
+    "answer": 1,
+    "explanation": "Теги <h1> барои сарлавҳаи сатҳи якум истифода мешавад.",
+    "date": "2026-10-05T14:06:14.389Z"
+  },
+  {
+    "id": "1791209174556",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-15",
+    "question": "Кадом тег маълумоти мета ва пайвастҳои CSS-ро дар бар мегирад?",
+    "options": [
+      "<body>",
+      "<head>",
+      "<meta>",
+      "<info>"
+    ],
+    "selectedAnswer": "<body>",
+    "correctAnswer": "<head>",
+    "answer": 1,
+    "explanation": "Теги <head> маълумоти техникӣ, title, meta ва пайвастҳои stylesheet-ро нигоҳ медорад.",
+    "date": "2026-10-05T14:06:14.556Z"
+  },
+  {
+    "id": "1791209174729",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-4",
+    "question": "Кадом тег барои сохтани пайванд истифода мешавад?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "selectedAnswer": "<link>",
+    "correctAnswer": "<a>",
+    "answer": 1,
+    "explanation": "Теги <a> барои сохтани hyperlink истифода мешавад.",
+    "date": "2026-10-05T14:06:14.729Z"
+  },
+  {
+    "id": "1791209174877",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-21",
+    "question": "Кадом тег барои сарлавҳаи сутуни ҷадвал истифода мешавад?",
+    "options": [
+      "<thead>",
+      "<th>",
+      "<header>",
+      "<td>"
+    ],
+    "selectedAnswer": "<thead>",
+    "correctAnswer": "<th>",
+    "answer": 1,
+    "explanation": "Теги <th> барои ячейкаи сарлавҳаи ҷадвал истифода мешавад.",
+    "date": "2026-10-05T14:06:14.877Z"
+  },
+  {
+    "id": "1791209175242",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-24",
+    "question": "Кадом type барои ворид кардани парол истифода мешавад?",
+    "options": [
+      "type=\"text\"",
+      "type=\"password\"",
+      "type=\"secret\"",
+      "type=\"hidden-password\""
+    ],
+    "selectedAnswer": "type=\"text\"",
+    "correctAnswer": "type=\"password\"",
+    "answer": 1,
+    "explanation": "type=\"password\" матни воридшавандаро ҳамчун парол нишон медиҳад.",
+    "date": "2026-10-05T14:06:15.243Z"
+  },
+  {
+    "id": "1791209176112",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-11",
+    "question": "Кадом тег барои гузоштани сарлавҳаи сатҳи дуюм истифода мешавад?",
+    "options": [
+      "<h1>",
+      "<h2>",
+      "<h3>",
+      "<head>"
+    ],
+    "selectedAnswer": "<h1>",
+    "correctAnswer": "<h2>",
+    "answer": 1,
+    "explanation": "Теги <h2> барои сарлавҳаи сатҳи дуюм истифода мешавад.",
+    "date": "2026-10-05T14:06:16.112Z"
+  },
+  {
+    "id": "1791292481352",
+    "userId": "1789962379836",
+    "technology": "HTML",
+    "questionId": "html-24",
+    "question": "Кадом type барои ворид кардани парол истифода мешавад?",
+    "options": [
+      "type=\"text\"",
+      "type=\"password\"",
+      "type=\"secret\"",
+      "type=\"hidden-password\""
+    ],
+    "selectedAnswer": "type=\"text\"",
+    "correctAnswer": "type=\"password\"",
+    "answer": 1,
+    "explanation": "type=\"password\" матни воридшавандаро ҳамчун парол нишон медиҳад.",
+    "date": "2026-10-06T13:14:41.352Z"
+  },
+  {
+    "id": "1791352494943",
+    "userId": "1789962379836",
+    "technology": "React",
+    "questionId": "react-33",
+    "question": "Кадом hook барои state истифода мешавад?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useRouter",
+      "useStyle"
+    ],
+    "selectedAnswer": "useEffect",
+    "correctAnswer": "useState",
+    "answer": 1,
+    "explanation": "useState барои нигоҳдорӣ ва тағйир додани state истифода мешавад.",
+    "date": "2026-10-07T05:54:54.943Z"
+  },
+  {
+    "id": "1791352494966",
+    "userId": "1789962379836",
+    "technology": "React",
+    "questionId": "react-33",
+    "question": "Кадом hook барои state истифода мешавад?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useRouter",
+      "useStyle"
+    ],
+    "selectedAnswer": "useEffect",
+    "correctAnswer": "useState",
+    "answer": 1,
+    "explanation": "useState барои нигоҳдорӣ ва тағйир додани state истифода мешавад.",
+    "date": "2026-10-07T05:54:54.966Z"
+  },
+  {
+    "id": "1791352495966",
+    "userId": "1789962379836",
+    "technology": "React",
+    "questionId": "react-31",
+    "question": "React чист?",
+    "options": [
+      "Забони барномасозӣ",
+      "Китобхонаи JavaScript",
+      "Базаи маълумот",
+      "Системаи оператсионӣ"
+    ],
+    "selectedAnswer": "Забони барномасозӣ",
+    "correctAnswer": "Китобхонаи JavaScript",
+    "answer": 1,
+    "explanation": "React китобхонаи JavaScript барои сохтани интерфейсҳо мебошад.",
+    "date": "2026-10-07T05:54:55.966Z"
+  },
+  {
+    "id": "1791390504970",
+    "userId": "1789962379836",
+    "technology": "React",
+    "questionId": "react-31",
+    "question": "React чист?",
+    "options": [
+      "Забони барномасозӣ",
+      "Китобхонаи JavaScript",
+      "Базаи маълумот",
+      "Системаи оператсионӣ"
+    ],
+    "selectedAnswer": "Забони барномасозӣ",
+    "correctAnswer": "Китобхонаи JavaScript",
+    "answer": 1,
+    "explanation": "React китобхонаи JavaScript барои сохтани интерфейсҳо мебошад.",
+    "date": "2026-10-07T16:28:24.970Z"
+  }
+]

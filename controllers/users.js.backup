@@ -1,0 +1,410 @@
+import bcrypt from "bcryptjs";
+import jwt from "jsonwebtoken";
+import { getUsers, saveUsers } from "../data/users.js";
+
+const getLevel = (xp = 0) => {
+  if (xp < 1500) return "Beginner";
+  if (xp < 3100) return "Junior";
+  if (xp < 4700) return "Middle";
+  return "Senior";
+};
+
+const getLevelFromTest = (percentage) => {
+  if (percentage < 40) return "Beginner";
+  if (percentage < 60) return "Junior";
+  if (percentage < 80) return "Middle";
+  return "Senior";
+};
+
+const removePassword = (user) => {
+  const { password: _, ...userWithoutPassword } = user;
+  return userWithoutPassword;
+};
+
+export const registerUserController = async (req, res) => {
+  try {
+    const { name, surename, email, password, password2, img } = req.body;
+
+    if (!name || !surename || !email || !password) {
+      return res.status(400).json({
+        message: "Ҳамаи майдонҳои заруриро пур кунед.",
+      });
+    }
+
+    if (password2 !== undefined && password !== password2) {
+      return res.status(400).json({
+        message: "Паролҳо мувофиқат намекунанд.",
+      });
+    }
+
+    if (password.length < 8) {
+      return res.status(400).json({
+        message: "Парол бояд ҳадди ақал 8 аломат дошта бошад.",
+      });
+    }
+
+    const users = await getUsers();
+    const normalizedEmail = email.trim().toLowerCase();
+
+    const existingUser = users.find(
+      (user) => user.email?.toLowerCase() === normalizedEmail,
+    );
+
+    if (existingUser) {
+      return res.status(409).json({
+        message: "Ин почтаи электронӣ аллакай истифода мешавад.",
+      });
+    }
+
+    const hashedPassword = await bcrypt.hash(password, 10);
+
+    const newUser = {
+      id: Date.now().toString(),
+      name: name.trim(),
+      surename: surename.trim(),
+      email: normalizedEmail,
+      password: hashedPassword,
+      img: img || "",
+      xp: 0,
+      level: "Beginner",
+      role: "user",
+      mistakes: [],
+      history: [],
+    };
+
+    users.push(newUser);
+    await saveUsers(users);
+
+    return res.status(201).json({
+      message: "Сабти ном бомуваффақият анҷом ёфт.",
+      user: removePassword(newUser),
+    });
+  } catch (error) {
+    console.error("Register error:", error);
+
+    return res.status(500).json({
+      message: "Ҳангоми сабти ном хато рух дод.",
+    });
+  }
+};
+
+export const loginUserController = async (req, res) => {
+  try {
+    const { email, password } = req.body;
+
+    if (!email || !password) {
+      return res.status(400).json({
+        message: "Email ва паролро ворид кунед.",
+      });
+    }
+
+    const users = await getUsers();
+    const normalizedEmail = email.trim().toLowerCase();
+
+    const user = users.find(
+      (item) => item.email?.toLowerCase() === normalizedEmail,
+    );
+
+    if (!user) {
+      return res.status(401).json({
+        message: "Email ё парол нодуруст аст.",
+      });
+    }
+
+    const passwordMatches = await bcrypt.compare(password, user.password);
+
+    if (!passwordMatches) {
+      return res.status(401).json({
+        message: "Email ё парол нодуруст аст.",
+      });
+    }
+
+    if (!process.env.JWT_SECRET) {
+      throw new Error("JWT_SECRET муайян нашудааст.");
+    }
+
+    const token = jwt.sign(
+      {
+        id: String(user.id),
+        email: user.email,
+        role: user.role,
+      },
+      process.env.JWT_SECRET,
+      { expiresIn: "7d" },
+    );
+
+    return res.status(200).json({
+      message: "Воридшавӣ бомуваффақият анҷом ёфт.",
+      token,
+      user: removePassword(user),
+    });
+  } catch (error) {
+    console.error("Login error:", error);
+
+    return res.status(500).json({
+      message: "Ҳангоми воридшавӣ хато рух дод.",
+    });
+  }
+};
+
+export const getUserController = async (req, res) => {
+  try {
+    const email = req.query.email;
+
+    if (!email) {
+      return res.status(400).json({
+        message: "Email муайян нашудааст.",
+      });
+    }
+
+    const users = await getUsers();
+
+    const user = users.find(
+      (item) => item.email?.toLowerCase() === email.trim().toLowerCase(),
+    );
+
+    if (!user) {
+      return res.status(404).json({
+        message: "Корбар ёфт нашуд.",
+      });
+    }
+
+    return res.status(200).json({
+      user: removePassword(user),
+    });
+  } catch (error) {
+    console.error("Get user error:", error);
+
+    return res.status(500).json({
+      message: "Маълумоти корбарро гирифтан муяссар нашуд.",
+    });
+  }
+};
+
+export const getUserByIdController = async (req, res) => {
+  try {
+    const users = await getUsers();
+
+    const user = users.find(
+      (item) => String(item.id) === String(req.params.id),
+    );
+
+    if (!user) {
+      return res.status(404).json({
+        message: "Корбар ёфт нашуд.",
+      });
+    }
+
+    return res.status(200).json({
+      user: removePassword(user),
+    });
+  } catch (error) {
+    console.error("Get user by ID error:", error);
+
+    return res.status(500).json({
+      message: "Гирифтани маълумоти корбар муяссар нашуд.",
+    });
+  }
+};
+
+export const addXpController = async (req, res) => {
+  try {
+    const { email, xp } = req.body;
+
+    if (!email || !Number.isSafeInteger(xp) || xp <= 0 || xp > 1000) {
+      return res.status(400).json({
+        message: "Маълумоти XP нодуруст аст.",
+      });
+    }
+
+    const users = await getUsers();
+
+    const index = users.findIndex(
+      (user) => user.email?.toLowerCase() === email.trim().toLowerCase(),
+    );
+
+    if (index === -1) {
+      return res.status(404).json({
+        message: "Корбар ёфт нашуд.",
+      });
+    }
+
+    users[index].xp = (Number(users[index].xp) || 0) + xp;
+    users[index].level = getLevel(users[index].xp);
+
+    await saveUsers(users);
+
+    return res.status(200).json({
+      message: "XP илова шуд.",
+      xp: users[index].xp,
+      level: users[index].level,
+    });
+  } catch (error) {
+    console.error("Add XP error:", error);
+
+    return res.status(500).json({
+      message: "Илова кардани XP муяссар нашуд.",
+    });
+  }
+};
+
+export const levelTestController = async (req, res) => {
+  try {
+    const { email, score, totalQuestions } = req.body;
+
+    if (
+      !email ||
+      !Number.isInteger(score) ||
+      !Number.isInteger(totalQuestions) ||
+      totalQuestions <= 0 ||
+      totalQuestions > 100 ||
+      score < 0 ||
+      score > totalQuestions
+    ) {
+      return res.status(400).json({
+        message: "Маълумоти тест нодуруст аст.",
+      });
+    }
+
+    const users = await getUsers();
+
+    const index = users.findIndex(
+      (user) => user.email?.toLowerCase() === email.trim().toLowerCase(),
+    );
+
+    if (index === -1) {
+      return res.status(404).json({
+        message: "Корбар ёфт нашуд.",
+      });
+    }
+
+    const percentage = (score / totalQuestions) * 100;
+    const level = getLevelFromTest(percentage);
+
+    users[index].level = level;
+
+    await saveUsers(users);
+
+    return res.status(200).json({
+      message: "Сатҳи корбар муайян карда шуд.",
+      level,
+      score,
+      totalQuestions,
+      percentage: Math.round(percentage),
+    });
+  } catch (error) {
+    console.error("Level test error:", error);
+
+    return res.status(500).json({
+      message: "Муайян кардани сатҳи корбар муяссар нашуд.",
+    });
+  }
+};
+
+export const getMistakesController = async (req, res) => {
+  try {
+    const email = req.query.email;
+
+    if (!email) {
+      return res.status(400).json({
+        message: "Email муайян нашудааст.",
+      });
+    }
+
+    const users = await getUsers();
+
+    const user = users.find(
+      (item) => item.email?.toLowerCase() === email.trim().toLowerCase(),
+    );
+
+    if (!user) {
+      return res.status(404).json({
+        message: "Корбар ёфт нашуд.",
+      });
+    }
+
+    return res.status(200).json({
+      mistakes: user.mistakes || [],
+    });
+  } catch (error) {
+    console.error("Get mistakes error:", error);
+
+    return res.status(500).json({
+      message: "Гирифтани хатогиҳо муяссар нашуд.",
+    });
+  }
+};
+
+export const saveMistakesController = async (req, res) => {
+  try {
+    const { email, mistakes } = req.body;
+
+    if (!email || !Array.isArray(mistakes)) {
+      return res.status(400).json({
+        message: "Маълумоти хатогиҳо нодуруст аст.",
+      });
+    }
+
+    const users = await getUsers();
+
+    const index = users.findIndex(
+      (user) => user.email?.toLowerCase() === email.trim().toLowerCase(),
+    );
+
+    if (index === -1) {
+      return res.status(404).json({
+        message: "Корбар ёфт нашуд.",
+      });
+    }
+
+    users[index].mistakes = mistakes;
+
+    await saveUsers(users);
+
+    return res.status(200).json({
+      message: "Хатогиҳо сабт шуданд.",
+      mistakes: users[index].mistakes,
+    });
+  } catch (error) {
+    console.error("Save mistakes error:", error);
+
+    return res.status(500).json({
+      message: "Сабт кардани хатогиҳо муяссар нашуд.",
+    });
+  }
+};
+
+export const deleteUserController = async (req, res) => {
+  try {
+    const users = await getUsers();
+
+    const index = users.findIndex(
+      (user) => String(user.id) === String(req.params.id),
+    );
+
+    if (index === -1) {
+      return res.status(404).json({
+        message: "Корбар ёфт нашуд.",
+      });
+    }
+
+    if (users[index].role === "admin") {
+      return res.status(403).json({
+        message: "Ҳисоби администраторро нест кардан мумкин нест.",
+      });
+    }
+
+    users.splice(index, 1);
+    await saveUsers(users);
+
+    return res.status(200).json({
+      message: "Корбар нест карда шуд.",
+    });
+  } catch (error) {
+    console.error("Delete user error:", error);
+
+    return res.status(500).json({
+      message: "Нест кардани корбар муяссар нашуд.",
+    });
+  }
+};
