@@ -21,11 +21,19 @@ import factsRoutes from "./routes/history/FactsRoutes.js";
 
 const app = express();
 
+// CORS_ORIGINS — адреса фронтенда через запятую (на Railway задаётся в Variables)
+const extraOrigins = (process.env.CORS_ORIGINS || "")
+  .split(",")
+  .map((origin) => origin.trim())
+  .filter(Boolean);
+
 app.use(cors({
   origin: [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "http://192.168.106.252:5173"
+    "http://192.168.106.252:5173",
+    "http://192.168.66.252:5173",
+    ...extraOrigins,
   ]
 }));
 
@@ -52,6 +60,8 @@ app.use((req, res) => {
   });
 });
 
-app.listen(8000, "0.0.0.0", () => {
-  console.log("Server: http://localhost:8000");
+const PORT = process.env.PORT || 8000;
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server: http://localhost:${PORT}`);
 });
