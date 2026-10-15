@@ -33,7 +33,6 @@ export const sendMessage = (req, res) => {
       name: name || "",
       email: email || "",
       message: message.trim(),
-      date: new Date().toISOString(),
       read: false,
     };
 

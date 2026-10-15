@@ -150,7 +150,6 @@ export const getAdminTestsController = (req, res) => {
     });
   } catch (error) {
     console.error("ADMIN TESTS ERROR:", error);
-
     return res.status(500).json({
       message: "Ҳангоми гирифтани тестҳо хато рӯй дод.",
     });
@@ -160,16 +159,13 @@ export const getAdminTestsController = (req, res) => {
 export const getAdminTasksController = (req, res) => {
   try {
     const allTasks = Object.values(tasks).flat();
-
     return res.status(200).json({
       tasks: allTasks,
       total: allTasks.length,
     });
   } catch (error) {
     console.error("ADMIN TASKS ERROR:", error);
-
     return res.status(500).json({
       message: "Ҳангоми гирифтани супоришҳо хато рӯй дод.",
     });
-  }
-};
+}};

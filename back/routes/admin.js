@@ -10,6 +10,10 @@ import {
 } from "../controllers/adminController.js";
 
 import {
+  deleteUserController,
+} from "../controllers/users.js";
+
+import {
   verifyToken,
   adminMiddleware,
 } from "../middleware/adminMiddleware.js";
@@ -21,6 +25,8 @@ router.post("/login", adminLoginController);
 router.use(verifyToken, adminMiddleware);
 
 router.get("/users", getAdminUsersController);
+router.delete("/users/:id", deleteUserController);
+
 router.get("/lessons", getAdminLessonsController);
 router.get("/tests", getAdminTestsController);
 router.get("/tasks", getAdminTasksController);

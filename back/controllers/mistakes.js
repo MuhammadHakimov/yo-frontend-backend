@@ -5,30 +5,20 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const mistakesFile = path.join(
-  __dirname,
-  "../data/mistakes.json"
-);
+const mistakesFile = path.join(__dirname, "../data/mistakes.json");
 
 function getMistakes() {
   if (!fs.existsSync(mistakesFile)) {
     fs.writeFileSync(mistakesFile, "[]", "utf-8");
   }
 
-  const data = fs.readFileSync(
-    mistakesFile,
-    "utf-8"
-  );
+  const data = fs.readFileSync(mistakesFile, "utf-8");
 
   return data.trim() ? JSON.parse(data) : [];
 }
 
 function saveMistakes(mistakes) {
-  fs.writeFileSync(
-    mistakesFile,
-    JSON.stringify(mistakes, null, 2),
-    "utf-8"
-  );
+  fs.writeFileSync(mistakesFile, JSON.stringify(mistakes, null, 2), "utf-8");
 }
 
 export const addMistakeController = (req, res) => {
@@ -57,8 +47,7 @@ export const addMistakeController = (req, res) => {
       !correctAnswer
     ) {
       return res.status(400).json({
-        message:
-          "Маълумоти хатогӣ пурра фиристода нашудааст",
+        message: "Маълумоти хатогӣ пурра фиристода нашудааст",
       });
     }
 
@@ -74,9 +63,7 @@ export const addMistakeController = (req, res) => {
       selectedAnswer,
       correctAnswer,
       answer:
-        typeof answer === "number"
-          ? answer
-          : options.indexOf(correctAnswer),
+        typeof answer === "number" ? answer : options.indexOf(correctAnswer),
       explanation: explanation || "",
       date: new Date().toISOString(),
     };
@@ -90,22 +77,15 @@ export const addMistakeController = (req, res) => {
       mistake: newMistake,
     });
   } catch (error) {
-    console.error(
-      "ADD MISTAKE ERROR:",
-      error
-    );
+    console.error("ADD MISTAKE ERROR:", error);
 
     return res.status(500).json({
-      message:
-        "Хатогиро сабт кардан имконнопазир аст",
+      message: "Хатогиро сабт кардан имконнопазир аст",
     });
   }
 };
 
-export const getUserMistakesController = (
-  req,
-  res
-) => {
+export const getUserMistakesController = (req, res) => {
   try {
     const { userId } = req.query;
 
@@ -118,30 +98,22 @@ export const getUserMistakesController = (
     const mistakes = getMistakes();
 
     const userMistakes = mistakes.filter(
-      (mistake) =>
-        String(mistake.userId) === String(userId)
+      (mistake) => String(mistake.userId) === String(userId),
     );
 
     return res.json({
       mistakes: userMistakes,
     });
   } catch (error) {
-    console.error(
-      "GET MISTAKES ERROR:",
-      error
-    );
+    console.error("GET MISTAKES ERROR:", error);
 
     return res.status(500).json({
-      message:
-        "Хатогиҳоро гирифтан имконнопазир аст",
+      message: "Хатогиҳоро гирифтан имконнопазир аст",
     });
   }
 };
 
-export const deleteMistakeController = (
-  req,
-  res
-) => {
+export const deleteMistakeController = (req, res) => {
   try {
     const { id } = req.params;
     const { userId } = req.query;
@@ -157,8 +129,7 @@ export const deleteMistakeController = (
     const mistakeIndex = mistakes.findIndex(
       (mistake) =>
         String(mistake.id) === String(id) &&
-        (!userId ||
-          String(mistake.userId) === String(userId))
+        (!userId || String(mistake.userId) === String(userId)),
     );
 
     if (mistakeIndex === -1) {
@@ -167,27 +138,21 @@ export const deleteMistakeController = (
       });
     }
 
-    const deletedMistake =
-      mistakes[mistakeIndex];
+    const deletedMistake = mistakes[mistakeIndex];
 
     mistakes.splice(mistakeIndex, 1);
 
     saveMistakes(mistakes);
 
     return res.json({
-      message:
-        "Хатогӣ бомуваффақият нест карда шуд",
+      message: "Хатогӣ бомуваффақият нест карда шуд",
       deletedId: deletedMistake.id,
     });
   } catch (error) {
-    console.error(
-      "DELETE MISTAKE ERROR:",
-      error
-    );
+    console.error("DELETE MISTAKE ERROR:", error);
 
     return res.status(500).json({
-      message:
-        "Хатогиро нест кардан имконнопазир аст",
+      message: "Хатогиро нест кардан имконнопазир аст",
     });
   }
 };

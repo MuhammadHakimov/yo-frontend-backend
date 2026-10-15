@@ -2,13 +2,6 @@
 import jwt from "jsonwebtoken";
 import { pool } from "../config/db.js";
 
-const getLevel = (xp = 0) => {
-  if (xp < 1500) return "Beginner";
-  if (xp < 3100) return "Junior";
-  if (xp < 4700) return "Middle";
-  return "Senior";
-};
-
 const getLevelFromTest = (percentage) => {
   if (percentage < 40) return "Beginner";
   if (percentage < 60) return "Junior";
@@ -25,7 +18,7 @@ const normalizeEmail = (email) => email.trim().toLowerCase();
 
 export const registerUserController = async (req, res) => {
   try {
-    const { name, surename, email, password, password2, img } = req.body;
+    const { name, surename, email, password, password2 } = req.body;
 
     if (!name || !surename || !email || !password) {
       return res.status(400).json({
@@ -46,7 +39,6 @@ export const registerUserController = async (req, res) => {
     }
 
     const normalizedEmail = normalizeEmail(email);
-
     const existingUser = await pool.query(
       "SELECT id FROM users WHERE LOWER(email) = $1",
       [normalizedEmail],
@@ -63,16 +55,15 @@ export const registerUserController = async (req, res) => {
 
     const result = await pool.query(
       `INSERT INTO users
-        (id, name, surename, email, password, img, xp, level, role, mistakes, history)
-       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10::jsonb, $11::jsonb)
-       RETURNING *`,
+    (id, name, surename, email, password, xp, level, role, mistakes, history)
+   VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9::jsonb, $10::jsonb)
+   RETURNING *`,
       [
         id,
         name.trim(),
         surename.trim(),
         normalizedEmail,
         hashedPassword,
-        img || "",
         0,
         "Beginner",
         "user",

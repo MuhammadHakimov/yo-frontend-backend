@@ -2,7 +2,6 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
-
 import chatRoutes from "./routes/chatRoutes.js";
 import { adminRouter } from "./routes/admin.js";
 import { lessonsRouter } from "./routes/lessons.js";
@@ -14,7 +13,6 @@ import verificationRoutes from "./routes/verificationRoutes.js";
 import messagesRouter from "./routes/messages.js";
 import reactHooksRoutes from "./routes/reactHooksRoutes.js";
 import channelsRouter from "./routes/channels.js";
-
 import peopleRoutes from "./routes/history/peopleRoutes.js";
 import historyRoutes from "./routes/history/historyRoutes.js";
 import factsRoutes from "./routes/history/FactsRoutes.js";
@@ -30,11 +28,9 @@ app.use(cors({
 }));
 
 app.use(express.json());
-
 app.use("/api/history/people", peopleRoutes);
 app.use("/api/history", historyRoutes);
 app.use("/api/facts", factsRoutes);
-
 app.use("/api/channels", channelsRouter);
 app.use("/api/messages", messagesRouter);
 app.use("/api/react-hooks", reactHooksRoutes);

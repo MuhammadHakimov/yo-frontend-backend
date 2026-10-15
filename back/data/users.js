@@ -4,13 +4,10 @@ export const getUsers = async () => {
   const result = await pool.query(
     "SELECT * FROM users ORDER BY id"
   );
-
   return result.rows;
 };
-
 export const saveUsers = async (users) => {
   const client = await pool.connect();
-
   try {
     await client.query("BEGIN");
 
