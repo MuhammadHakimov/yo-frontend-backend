@@ -296,7 +296,7 @@ export const lessons = {
     "lessons": [
       {
         "id": "1",
-        "title": "Дарси 1: Муқаддима ба CSS",
+        "title": "Дарси 1: Муқаддима ба CSSSSSSSSSSSSSSSS",
         "description": "CSS чист, чӣ гуна онро ба HTML пайваст кардан ва асосҳои селекторҳо.",
         "topics": [
           {
