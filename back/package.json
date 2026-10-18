@@ -5,8 +5,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --ignore data/tests.js server.js"
-  },
+  "start": "node server.js",
+  "dev": "nodemon --ignore data/tests.js server.js"
+},
   "author": "Firuz Madaminov",
   "license": "ISC",
   "dependencies": {
