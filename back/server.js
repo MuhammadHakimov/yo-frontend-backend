@@ -19,6 +19,7 @@ import factsRoutes from "./routes/history/FactsRoutes.js";
 
 const app = express();
 
+
 app.use(cors({
   origin: [
     "http://localhost:5173",
@@ -27,6 +28,7 @@ app.use(cors({
     "https://front-end-production-b1bd.up.railway.app"
   ]
 }));
+
 
 app.use(express.json());
 app.use("/api/history/people", peopleRoutes);
@@ -50,8 +52,9 @@ app.use((req, res) => {
 });
 
 
+
 const PORT = process.env.PORT || 8000;
 
 app.listen(PORT, "0.0.0.0", () => {
-  console.log(`Server listening on port ${PORT}`);
+  console.log(`Server: http://localhost:${PORT}`);
 });
