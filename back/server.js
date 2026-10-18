@@ -23,7 +23,8 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "http://192.168.106.252:5173"
+    "http://192.168.66.252:5173",
+    "https://front-end-production-b1bd.up.railway.app"
   ]
 }));
 
