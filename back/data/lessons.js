@@ -5,7 +5,7 @@ export const lessons = {
     lessons: [
       {
         id: "1",
-        title: "Дарси 1: Муқаддима ба ",
+        title: "Дарси 1: Муқаддима ба Html",
         description:
           "HTML чист ва чӣ гуна сохтори асосии вебсаҳифа сохта мешавад.",
         topics: [
