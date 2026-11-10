@@ -9,6 +9,9 @@ const getLevel = (xp = 0) => {
   return "Senior";
 };
 
+// Order matters: used so XP never lowers a level earned via the Level Test.
+const LEVEL_ORDER_SQL = "ARRAY['Beginner','Junior','Middle','Senior']::text[]";
+
 const getLevelFromTest = (percentage) => {
   if (percentage < 40) return "Beginner";
   if (percentage < 60) return "Junior";
@@ -222,14 +225,19 @@ export const addXpController = async (req, res) => {
     const result = await pool.query(
       `UPDATE users
        SET xp = COALESCE(xp, 0) + $1,
-           level = CASE
-             WHEN COALESCE(xp, 0) + $1 < 1500 THEN 'Beginner'
-             WHEN COALESCE(xp, 0) + $1 < 3100 THEN 'Junior'
-             WHEN COALESCE(xp, 0) + $1 < 4700 THEN 'Middle'
-             ELSE 'Senior'
-           END
+           level = (${LEVEL_ORDER_SQL})[
+             GREATEST(
+               COALESCE(array_position(${LEVEL_ORDER_SQL}, level::text), 1),
+               CASE
+                 WHEN COALESCE(xp, 0) + $1 < 1500 THEN 1
+                 WHEN COALESCE(xp, 0) + $1 < 3100 THEN 2
+                 WHEN COALESCE(xp, 0) + $1 < 4700 THEN 3
+                 ELSE 4
+               END
+             )
+           ]
        WHERE LOWER(email) = $2
-       RETURNING xp, level`,
+       RETURNING *`,
       [xp, normalizeEmail(email)],
     );
 
@@ -243,6 +251,7 @@ export const addXpController = async (req, res) => {
       message: "XP илова шуд.",
       xp: result.rows[0].xp,
       level: result.rows[0].level,
+      user: removePassword(result.rows[0]),
     });
   } catch (error) {
     console.error("Add XP error:", error);
@@ -278,7 +287,7 @@ export const levelTestController = async (req, res) => {
       `UPDATE users
        SET level = $1
        WHERE LOWER(email) = $2
-       RETURNING id`,
+       RETURNING *`,
       [level, normalizeEmail(email)],
     );
 
@@ -294,6 +303,7 @@ export const levelTestController = async (req, res) => {
       score,
       totalQuestions,
       percentage: Math.round(percentage),
+      user: removePassword(result.rows[0]),
     });
   } catch (error) {
     console.error("Level test error:", error);

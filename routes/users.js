@@ -39,6 +39,11 @@ usersRouter.post(
 );
 
 usersRouter.get(
+  "/",
+  getUserController
+);
+
+usersRouter.get(
   "/profile",
   getUserController
 );
