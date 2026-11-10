@@ -12,6 +12,9 @@ const getLevel = (xp = 0) => {
 // Order matters: used so XP never lowers a level earned via the Level Test.
 const LEVEL_ORDER_SQL = "ARRAY['Beginner','Junior','Middle','Senior']::text[]";
 
+// Max XP (Senior threshold): Level Test gives XP = percentage of this value.
+const LEVEL_TEST_MAX_XP = 4700;
+
 const getLevelFromTest = (percentage) => {
   if (percentage < 40) return "Beginner";
   if (percentage < 60) return "Junior";
@@ -282,13 +285,16 @@ export const levelTestController = async (req, res) => {
 
     const percentage = (score / totalQuestions) * 100;
     const level = getLevelFromTest(percentage);
+    // e.g. 10% -> 470 XP. XP never decreases (retaking with a lower score keeps it).
+    const testXp = Math.round((percentage / 100) * LEVEL_TEST_MAX_XP);
 
     const result = await pool.query(
       `UPDATE users
-       SET level = $1
+       SET level = $1,
+           xp = GREATEST(COALESCE(xp, 0), $3)
        WHERE LOWER(email) = $2
        RETURNING *`,
-      [level, normalizeEmail(email)],
+      [level, normalizeEmail(email), testXp],
     );
 
     if (!result.rows[0]) {
@@ -303,6 +309,7 @@ export const levelTestController = async (req, res) => {
       score,
       totalQuestions,
       percentage: Math.round(percentage),
+      xp: result.rows[0].xp,
       user: removePassword(result.rows[0]),
     });
   } catch (error) {
